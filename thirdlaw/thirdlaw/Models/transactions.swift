@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class Transaction {
+    var date: Date
+    var price: Double
+    var company: String
+//    var rating:
+    init(date: Date, price: Double, company: String) {
+        self.date = date
+        self.price = price
+        self.company = company
+    }
+    
+}
