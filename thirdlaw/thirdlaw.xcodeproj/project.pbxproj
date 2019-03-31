@@ -21,6 +21,9 @@
 		B78285102250985900E0DEE3 /* SurveyVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */; };
 		B78285122250994E00E0DEE3 /* LaunchScreenVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285112250994E00E0DEE3 /* LaunchScreenVC-system.swift */; };
 		B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */; };
+		B78285162250AC4F00E0DEE3 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */; };
+		B78285182250B5B100E0DEE3 /* SurveyVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */; };
+		B782851A2250BB1800E0DEE3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285192250BB1800E0DEE3 /* Enums.swift */; };
 		B795F6A2225064130090A127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A1225064130090A127 /* AppDelegate.swift */; };
 		B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A3225064130090A127 /* LaunchScreenVC.swift */; };
 		B795F6A7225064130090A127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B795F6A5225064130090A127 /* Main.storyboard */; };
@@ -120,6 +123,9 @@
 		B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-initUI.swift"; sourceTree = "<group>"; };
 		B78285112250994E00E0DEE3 /* LaunchScreenVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LaunchScreenVC-system.swift"; sourceTree = "<group>"; };
 		B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-logic.swift"; sourceTree = "<group>"; };
+		B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-system.swift"; sourceTree = "<group>"; };
+		B78285192250BB1800E0DEE3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		B795F69E225064130090A127 /* thirdlaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thirdlaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B795F6A1225064130090A127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B795F6A3225064130090A127 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
@@ -289,6 +295,7 @@
 				B7DBC27A22507899006ADABD /* SurveyVC.swift */,
 				B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */,
 				B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */,
+				B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */,
 			);
 			path = SurveyVC;
 			sourceTree = "<group>";
@@ -365,6 +372,7 @@
 			children = (
 				B7F4F1C722506A73001455A1 /* fonts */,
 				B7F4F1BF225066A1001455A1 /* UIAttributeExtensions.swift */,
+				B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */,
 				B7F4F1C3225066F2001455A1 /* ConstantsAndUtils.swift */,
 			);
 			path = Helpers;
@@ -435,6 +443,7 @@
 			children = (
 				B7F4F22122506DD2001455A1 /* User.swift */,
 				943835DF2250BAD60013494A /* transactions.swift */,
+				B78285192250BB1800E0DEE3 /* Enums.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -739,16 +748,24 @@
 				B7DBC282225079A7006ADABD /* DonateVC.swift in Sources */,
 				943835E72250BD1D0013494A /* SignUpVC-logic.swift in Sources */,
 				B782850E2250933900E0DEE3 /* LaunchScreenVC-logic.swift in Sources */,
+				B782851A2250BB1800E0DEE3 /* Enums.swift in Sources */,
 				B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */,
 				B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */,
 				B795F6A2225064130090A127 /* AppDelegate.swift in Sources */,
 				B7DBC27B22507899006ADABD /* SurveyVC.swift in Sources */,
 				B7F4F22722506E05001455A1 /* PlaidAPI.swift in Sources */,
 				B78285122250994E00E0DEE3 /* LaunchScreenVC-system.swift in Sources */,
+				B78285162250AC4F00E0DEE3 /* UIKitExtensions.swift in Sources */,
 				B7F4F1BD22506660001455A1 /* AppDelegate-state.swift in Sources */,
 				B7DBC28622507A06006ADABD /* ShopVC.swift in Sources */,
+<<<<<<< HEAD
 				943835EC2250BD720013494A /* TransactionsVC.swift in Sources */,
 				943835E02250BAD60013494A /* transactions.swift in Sources */,
+=======
+				B78285182250B5B100E0DEE3 /* SurveyVC-system.swift in Sources */,
+				943835D822509AF10013494A /* SignUpVC.swift in Sources */,
+				943835DA22509B030013494A /* SignUpVC-initUI.swift in Sources */,
+>>>>>>> c56931b72e0a84c7030d60edbaaaa269d2bda387
 				B7F4F22222506DD2001455A1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -924,7 +941,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NPD4762C42;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
 				INFOPLIST_FILE = thirdlaw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -943,7 +960,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NPD4762C42;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
 				INFOPLIST_FILE = thirdlaw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

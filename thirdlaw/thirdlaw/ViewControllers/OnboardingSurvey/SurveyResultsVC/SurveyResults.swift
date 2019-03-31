@@ -14,6 +14,7 @@ import ARMDevSuite
 class SurveyResults: UIViewController {
     
     // Data
+    var results: [SurveyNiceLevel]!
     
     // System
     var alerts: AlertManager!

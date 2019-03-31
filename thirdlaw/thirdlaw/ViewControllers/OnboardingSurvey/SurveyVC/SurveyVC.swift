@@ -11,26 +11,25 @@
 import UIKit
 import ARMDevSuite
 
-enum EcoFriendliness {
-    case low
-    case med
-    case high
-}
-
 class SurveyVC: UIViewController {
     
     // Data
-    var responses = [EcoFriendliness]()
-    var pendingResponse: EcoFriendliness? {
+    var responses = [SurveyNiceLevel]()
+    var pendingResponse: SurveyNiceLevel? {
         didSet {
-            
+            advanceButton.isEnabled = (self.pendingResponse != nil)
         }
     }
     var surveyPage: Int {
         return responses.count
     }
-    static var categories = ["Transportation", "Flying", "Food Habits", "Shopping", "Energy", "Warm Water", "Heating"]
-    static var questions = [
+    var lastPage: Bool {
+        return surveyPage + 1 == SurveyVC.questions.count
+    }
+    
+    
+    static let categories = ["Transportation", "Flying", "Food Habits", "Shopping", "Energy", "Warm Water", "Heating"]
+    static let questions = [
         "Which statement is most accurate for you?",
         "Choose the option that best fits you!",
         "Which option do you think describes you best?",
@@ -39,7 +38,7 @@ class SurveyVC: UIViewController {
         "Choose the option that best fits you!",
         "Final question! What describes you best?"
     ]
-    static var goods = [
+    static let goods = [
         "I almost always use a bike, public transit, or walk to get around.",
         "I never fly.",
         "I only eat vegetarian food.",
@@ -49,7 +48,7 @@ class SurveyVC: UIViewController {
         "In winter, I wear a pullover when I am at home (18-20°C)."
     ]
     
-    static var mediums = [
+    static let mediums = [
         "I use the car and public transport about the same amount.",
         "I fly relatively infrequently. Approximately less than 5 flights per year.",
         "I eat meat 2 to 3 times a week.",
@@ -59,8 +58,8 @@ class SurveyVC: UIViewController {
         "In winter, it is pleasantly warm in my home (20-22°C)."
     ]
     
-    static var bads = [
-        "I almost always drive my own car.",
+    static let bads = [
+        "I almost always drive by car, taxi, Lyft, Uber, etc.",
         "I am a very frequenty flier! I fly a couple times every month.",
         "I eat meat almost every day - mostly from an unknown source.",
         "I buy a new appliance, decoration, clothes or shoes every week.",
@@ -68,7 +67,7 @@ class SurveyVC: UIViewController {
         "I often have baths - but in exchange I shower less often and only have short showers.",
         "I can sit in my living room with just a T-shirt in winter (over 22°C)."
     ]
-    static var allOptions = [SurveyVC.bads, SurveyVC.mediums, SurveyVC.goods]
+    static let allOptions = [SurveyVC.bads, SurveyVC.mediums, SurveyVC.goods]
     
     // System
     var alerts: AlertManager!
@@ -79,6 +78,9 @@ class SurveyVC: UIViewController {
     var questionLabel: UILabel!
     
     var buttons = [UIButton]()
+    var wholeBar: UIView!
+    
+    var advanceButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
