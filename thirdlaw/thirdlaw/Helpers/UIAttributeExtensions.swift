@@ -56,3 +56,4 @@ extension CGFloat {
     static let buttonThin: CGFloat = 50
     static let buttonThick: CGFloat = 80
 }
+

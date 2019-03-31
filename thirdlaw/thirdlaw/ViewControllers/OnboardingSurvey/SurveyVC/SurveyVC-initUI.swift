@@ -15,6 +15,9 @@ extension SurveyVC {
     func initUI() {
         createHeader()
         addButtons()
+        initProgressBar()
+        initAdvanceButton()
+        
     }
 
     // UI Initialization Helpers
@@ -57,14 +60,17 @@ extension SurveyVC {
             let butt = UIButton(); view.addSubview(butt)
                 butt.translatesAutoresizingMaskIntoConstraints = false
                 butt.leadingAnchor.constraint(equalTo: questionLabel.leadingAnchor).isActive = true
-                butt.topAnchor.constraint(equalTo: last.bottomAnchor, constant: .padding).isActive = true
-                butt.widthAnchor.constraint(equalToConstant: .buttonThin).isActive = true
+                butt.topAnchor.constraint(equalTo: last.bottomAnchor, constant: .padding * 3).isActive = true
+                butt.widthAnchor.constraint(equalToConstant: .buttonThin/1.5).isActive = true
                 butt.heightAnchor.constraint(equalTo: butt.widthAnchor, multiplier: 1).isActive = true
-            butt.addBorder(colored: .thirdDarkGreen5, thickness: 1)
+            butt.addBorder(colored: .thirdDarkGreen5, thickness: 4)
             butt.setImage(UIImage.buttonCheck.withRenderingMode(.alwaysTemplate), for: .selected)
             butt.tintColor = .thirdBrown
             butt.tag = i
-            butt.addTarget(self, action: #selector(<#T##@objc method#>), for: <#T##UIControl.Event#>)
+            butt.addTarget(self, action: #selector(selectOption(_:)), for: .touchUpInside)
+            butt.imageEdgeInsets = UIEdgeInsets(padding: 2)
+            
+            buttons.append(butt)
             
             let label = UILabel(); view.addSubview(label)
                 label.translatesAutoresizingMaskIntoConstraints = false
@@ -80,6 +86,36 @@ extension SurveyVC {
             last = label
             
         }
+    }
+    
+    func initAdvanceButton() {
+        advanceButton = UIButton(); view.addSubview(advanceButton)
+            advanceButton.translatesAutoresizingMaskIntoConstraints = false
+//            advanceButton.
+        
+    }
+    func initProgressBar() {
+        let progressBarSize: CGFloat = 15
+        
+        let wholeBar = UIView(); view.addSubview(wholeBar)
+            wholeBar.translatesAutoresizingMaskIntoConstraints = false
+            wholeBar.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
+            wholeBar.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+            wholeBar.widthAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.widthAnchor).isActive = true
+            wholeBar.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -progressBarSize).isActive = true
+        wholeBar.backgroundColor = .gray
+        
+        
+        let completionBar = UIView(); view.addSubview(completionBar)
+            completionBar.translatesAutoresizingMaskIntoConstraints = false
+            completionBar.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+            completionBar.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+            completionBar.widthAnchor.constraint(equalTo: wholeBar.widthAnchor, multiplier: CGFloat(self.surveyPage + 1)/CGFloat(SurveyVC.questions.count)).isActive = true
+            completionBar.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -progressBarSize).isActive = true
+        
+        completionBar.backgroundColor = .thirdDarkGreen5
+        
+        
     }
 
 }

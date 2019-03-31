@@ -23,7 +23,7 @@ class SurveyVC: UIViewController {
     var responses = [EcoFriendliness]()
     var pendingResponse: EcoFriendliness? {
         didSet {
-            
+            advanceButton.isEnabled = self.pendingResponse != nil
         }
     }
     var surveyPage: Int {
@@ -60,7 +60,7 @@ class SurveyVC: UIViewController {
     ]
     
     static var bads = [
-        "I almost always drive my own car.",
+        "I almost always drive by car, taxi, Lyft, Uber, etc.",
         "I am a very frequenty flier! I fly a couple times every month.",
         "I eat meat almost every day - mostly from an unknown source.",
         "I buy a new appliance, decoration, clothes or shoes every week.",
@@ -79,6 +79,8 @@ class SurveyVC: UIViewController {
     var questionLabel: UILabel!
     
     var buttons = [UIButton]()
+    
+    var advanceButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

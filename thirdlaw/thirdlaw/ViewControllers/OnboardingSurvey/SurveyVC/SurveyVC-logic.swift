@@ -13,18 +13,18 @@ import ARMDevSuite
 
 extension SurveyVC {
     @objc func selectOption(_ sender: UIButton) {
-//        if !sender.isSelected {
-//            buttons.forEach { (button) in
-//                if button.isSelected
-//                button.isSelected = false
-//            }
-//        }
-//        
-//        sender.isSelected =
-//        
-//        if sender.isSelected {
-//            
-//        }
+        if !sender.isSelected {
+            buttons.forEach { (button) in
+                if button != sender {
+                    button.isSelected = false
+                }
+            }
+            
+            self.pendingResponse = [.low, .med, .high][sender.tag]
+        }
+
+        sender.isSelected = !sender.isSelected
+
         
     }
 
