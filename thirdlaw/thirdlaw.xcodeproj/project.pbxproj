@@ -20,6 +20,8 @@
 		B771383F2251013E00B2E770 /* TransactionsVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77138392251013E00B2E770 /* TransactionsVC-initUI.swift */; };
 		B77138402251013E00B2E770 /* TransactionsVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771383A2251013E00B2E770 /* TransactionsVC-logic.swift */; };
 		B77138412251013E00B2E770 /* TransactionsVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771383B2251013E00B2E770 /* TransactionsVC-system.swift */; };
+		B77138442251091C00B2E770 /* BankAccountVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77138422251091B00B2E770 /* BankAccountVC-initUI.swift */; };
+		B77138452251091C00B2E770 /* BankAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77138432251091B00B2E770 /* BankAccountVC.swift */; };
 		B776FE462250C18A000DF900 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE452250C18A000DF900 /* Enums.swift */; };
 		B776FE482250C1B0000DF900 /* SurveyResults-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */; };
 		B776FE4A2250C1C4000DF900 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE492250C1C4000DF900 /* UIKitExtensions.swift */; };
@@ -132,6 +134,8 @@
 		B77138392251013E00B2E770 /* TransactionsVC-initUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-initUI.swift"; sourceTree = "<group>"; };
 		B771383A2251013E00B2E770 /* TransactionsVC-logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-logic.swift"; sourceTree = "<group>"; };
 		B771383B2251013E00B2E770 /* TransactionsVC-system.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-system.swift"; sourceTree = "<group>"; };
+		B77138422251091B00B2E770 /* BankAccountVC-initUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BankAccountVC-initUI.swift"; sourceTree = "<group>"; };
+		B77138432251091B00B2E770 /* BankAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccountVC.swift; sourceTree = "<group>"; };
 		B776FE452250C18A000DF900 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SurveyResults-logic.swift"; sourceTree = "<group>"; };
 		B776FE492250C1C4000DF900 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
@@ -283,6 +287,15 @@
 			path = TransactionsVC;
 			sourceTree = "<group>";
 		};
+		B77138462251092000B2E770 /* BankAccountVC */ = {
+			isa = PBXGroup;
+			children = (
+				B77138422251091B00B2E770 /* BankAccountVC-initUI.swift */,
+				B77138432251091B00B2E770 /* BankAccountVC.swift */,
+			);
+			path = BankAccountVC;
+			sourceTree = "<group>";
+		};
 		B795F695225064120090A127 = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +377,7 @@
 		B7DBC283225079AA006ADABD /* MainActivities */ = {
 			isa = PBXGroup;
 			children = (
+				B77138462251092000B2E770 /* BankAccountVC */,
 				943835EA2250BD340013494A /* SignUpVC */,
 				B7DBC284225079FC006ADABD /* DonateVC */,
 				B7DBC28722507A0B006ADABD /* ShopVC */,
@@ -797,11 +811,13 @@
 				B776FE542250E6C4000DF900 /* SurveyResults-system.swift in Sources */,
 				943835E92250BD1D0013494A /* SignUpVC.swift in Sources */,
 				B7DBC282225079A7006ADABD /* DonateVC.swift in Sources */,
+				B77138442251091C00B2E770 /* BankAccountVC-initUI.swift in Sources */,
 				B776FE502250D7AE000DF900 /* PaddedLabel.swift in Sources */,
 				943835E72250BD1D0013494A /* SignUpVC-logic.swift in Sources */,
 				B776FE4E2250C619000DF900 /* SurveyResults-initUI.swift in Sources */,
 				B782850E2250933900E0DEE3 /* LaunchScreenVC-logic.swift in Sources */,
 				B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */,
+				B77138452251091C00B2E770 /* BankAccountVC.swift in Sources */,
 				B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */,
 				B771383F2251013E00B2E770 /* TransactionsVC-initUI.swift in Sources */,
 				B795F6A2225064130090A127 /* AppDelegate.swift in Sources */,

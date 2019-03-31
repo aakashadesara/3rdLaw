@@ -81,8 +81,6 @@ extension TakeActionVC {
             photo.contentMode = .scaleAspectFit
             photo.image = img
             
-            
-            
         }
         
         self.lifestyleButton = UIButton(); view.addSubview(lifestyleButton)
