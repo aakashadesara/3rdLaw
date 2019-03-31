@@ -20,6 +20,7 @@ extension SignUpVC {
         initLastName()
         initUserName()
         initPassword()
+        initButton()
     }
     
     func initHeader(){
@@ -128,5 +129,19 @@ extension SignUpVC {
         password.isSecureTextEntry = true
         password.autocapitalizationType = .none
     }
-
+    
+    func initButton(){
+        self.nextButton = UIButton(); view.addSubview(nextButton)
+        nextButton.translatesAutoresizingMaskIntoConstraints = false
+        nextButton.rightAnchor.constraint(equalToSystemSpacingAfter: self.view.safeAreaLayoutGuide.rightAnchor, multiplier: 1).isActive = true
+        
+        nextButton.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -3 * .padding).isActive = true
+        nextButton.widthAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.widthAnchor, multiplier: 1/2).isActive = true
+        nextButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        nextButton.setTitle("Next >", for: .normal)
+        nextButton.titleLabel?.font = .proximaLarge
+        nextButton.backgroundColor = .thirdDarkGreen5
+        nextButton.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+    }
+    
 }
