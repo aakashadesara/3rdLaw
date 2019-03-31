@@ -14,12 +14,12 @@
 		943835E72250BD1D0013494A /* SignUpVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835E42250BD1D0013494A /* SignUpVC-logic.swift */; };
 		943835E82250BD1D0013494A /* SignUpVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835E52250BD1D0013494A /* SignUpVC-initUI.swift */; };
 		943835E92250BD1D0013494A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835E62250BD1D0013494A /* SignUpVC.swift */; };
-		943835EC2250BD720013494A /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835EB2250BD720013494A /* TransactionsVC.swift */; };
-		943835EE2250BD9E0013494A /* TransactionsVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */; };
-		943F947B2250C95E007B21BA /* TransactionsVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F947A2250C95E007B21BA /* TransactionsVC-logic.swift */; };
-		943F947D2250DC3F007B21BA /* TransactionsVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F947C2250DC3F007B21BA /* TransactionsVC-system.swift */; };
-		943F947F2250E019007B21BA /* TakeActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F947E2250E019007B21BA /* TakeActionVC.swift */; };
-		943F94812250E027007B21BA /* TakeActionVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F94802250E027007B21BA /* TakeActionVC-initUI.swift */; };
+		B771383C2251013E00B2E770 /* TakeActionVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77138352251013E00B2E770 /* TakeActionVC-initUI.swift */; };
+		B771383D2251013E00B2E770 /* TakeActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77138362251013E00B2E770 /* TakeActionVC.swift */; };
+		B771383E2251013E00B2E770 /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77138382251013E00B2E770 /* TransactionsVC.swift */; };
+		B771383F2251013E00B2E770 /* TransactionsVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77138392251013E00B2E770 /* TransactionsVC-initUI.swift */; };
+		B77138402251013E00B2E770 /* TransactionsVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771383A2251013E00B2E770 /* TransactionsVC-logic.swift */; };
+		B77138412251013E00B2E770 /* TransactionsVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B771383B2251013E00B2E770 /* TransactionsVC-system.swift */; };
 		B776FE462250C18A000DF900 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE452250C18A000DF900 /* Enums.swift */; };
 		B776FE482250C1B0000DF900 /* SurveyResults-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */; };
 		B776FE4A2250C1C4000DF900 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE492250C1C4000DF900 /* UIKitExtensions.swift */; };
@@ -123,15 +123,15 @@
 		943835E42250BD1D0013494A /* SignUpVC-logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignUpVC-logic.swift"; sourceTree = "<group>"; };
 		943835E52250BD1D0013494A /* SignUpVC-initUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignUpVC-initUI.swift"; sourceTree = "<group>"; };
 		943835E62250BD1D0013494A /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
-		943835EB2250BD720013494A /* TransactionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
-		943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-initUI.swift"; sourceTree = "<group>"; };
-		943F947A2250C95E007B21BA /* TransactionsVC-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-logic.swift"; sourceTree = "<group>"; };
-		943F947C2250DC3F007B21BA /* TransactionsVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-system.swift"; sourceTree = "<group>"; };
-		943F947E2250E019007B21BA /* TakeActionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeActionVC.swift; sourceTree = "<group>"; };
-		943F94802250E027007B21BA /* TakeActionVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TakeActionVC-initUI.swift"; sourceTree = "<group>"; };
 		9E34FF899B7A6217C22F274C /* Pods-thirdlawUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawUITests.debug.xcconfig"; path = "Target Support Files/Pods-thirdlawUITests/Pods-thirdlawUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E477A215BC1F16D6EFFA5F3 /* Pods-thirdlawUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawUITests.release.xcconfig"; path = "Target Support Files/Pods-thirdlawUITests/Pods-thirdlawUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1ACCC80685673C3CBB2CC39 /* Pods-thirdlawTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawTests.debug.xcconfig"; path = "Target Support Files/Pods-thirdlawTests/Pods-thirdlawTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B77138352251013E00B2E770 /* TakeActionVC-initUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TakeActionVC-initUI.swift"; sourceTree = "<group>"; };
+		B77138362251013E00B2E770 /* TakeActionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeActionVC.swift; sourceTree = "<group>"; };
+		B77138382251013E00B2E770 /* TransactionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
+		B77138392251013E00B2E770 /* TransactionsVC-initUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-initUI.swift"; sourceTree = "<group>"; };
+		B771383A2251013E00B2E770 /* TransactionsVC-logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-logic.swift"; sourceTree = "<group>"; };
+		B771383B2251013E00B2E770 /* TransactionsVC-system.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-system.swift"; sourceTree = "<group>"; };
 		B776FE452250C18A000DF900 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SurveyResults-logic.swift"; sourceTree = "<group>"; };
 		B776FE492250C1C4000DF900 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
@@ -263,24 +263,24 @@
 			path = SignUpVC;
 			sourceTree = "<group>";
 		};
-		943F94792250C2D5007B21BA /* TransactionsVC */ = {
+		B77138342251013E00B2E770 /* TakeActionVC */ = {
 			isa = PBXGroup;
 			children = (
-				943835EB2250BD720013494A /* TransactionsVC.swift */,
-				943F947C2250DC3F007B21BA /* TransactionsVC-system.swift */,
-				943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */,
-				943F947A2250C95E007B21BA /* TransactionsVC-logic.swift */,
-			);
-			path = TransactionsVC;
-			sourceTree = "<group>";
-		};
-		943F94822250E02C007B21BA /* TakeActionVC */ = {
-			isa = PBXGroup;
-			children = (
-				943F947E2250E019007B21BA /* TakeActionVC.swift */,
-				943F94802250E027007B21BA /* TakeActionVC-initUI.swift */,
+				B77138352251013E00B2E770 /* TakeActionVC-initUI.swift */,
+				B77138362251013E00B2E770 /* TakeActionVC.swift */,
 			);
 			path = TakeActionVC;
+			sourceTree = "<group>";
+		};
+		B77138372251013E00B2E770 /* TransactionsVC */ = {
+			isa = PBXGroup;
+			children = (
+				B77138382251013E00B2E770 /* TransactionsVC.swift */,
+				B77138392251013E00B2E770 /* TransactionsVC-initUI.swift */,
+				B771383A2251013E00B2E770 /* TransactionsVC-logic.swift */,
+				B771383B2251013E00B2E770 /* TransactionsVC-system.swift */,
+			);
+			path = TransactionsVC;
 			sourceTree = "<group>";
 		};
 		B795F695225064120090A127 = {
@@ -367,9 +367,10 @@
 				943835EA2250BD340013494A /* SignUpVC */,
 				B7DBC284225079FC006ADABD /* DonateVC */,
 				B7DBC28722507A0B006ADABD /* ShopVC */,
-				943835EB2250BD720013494A /* TransactionsVC.swift */,
-				943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */,
-				B776FE552250EE78000DF900 /* PlaidVC.swift */,			);
+				B776FE552250EE78000DF900 /* PlaidVC.swift */,
+				B77138342251013E00B2E770 /* TakeActionVC */,
+				B77138372251013E00B2E770 /* TransactionsVC */,
+			);
 			path = MainActivities;
 			sourceTree = "<group>";
 		};
@@ -783,14 +784,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B78285102250985900E0DEE3 /* SurveyVC-initUI.swift in Sources */,
+				B771383E2251013E00B2E770 /* TransactionsVC.swift in Sources */,
 				B7F4F1C62250671C001455A1 /* AppDelegate-design.swift in Sources */,
-				943F947B2250C95E007B21BA /* TransactionsVC-logic.swift in Sources */,
 				B782850C22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift in Sources */,
 				B7F4F1C4225066F2001455A1 /* ConstantsAndUtils.swift in Sources */,
 				B776FE562250EE78000DF900 /* PlaidVC.swift in Sources */,
 				B7DBC27F22507931006ADABD /* SurveyResults.swift in Sources */,
 				B7F4F1C0225066A1001455A1 /* UIAttributeExtensions.swift in Sources */,
-				943835EE2250BD9E0013494A /* TransactionsVC-initUI.swift in Sources */,
+				B771383C2251013E00B2E770 /* TakeActionVC-initUI.swift in Sources */,
 				943835E82250BD1D0013494A /* SignUpVC-initUI.swift in Sources */,
 				B776FE4A2250C1C4000DF900 /* UIKitExtensions.swift in Sources */,
 				B776FE542250E6C4000DF900 /* SurveyResults-system.swift in Sources */,
@@ -802,19 +803,19 @@
 				B782850E2250933900E0DEE3 /* LaunchScreenVC-logic.swift in Sources */,
 				B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */,
 				B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */,
-				943F947D2250DC3F007B21BA /* TransactionsVC-system.swift in Sources */,
-				943F94812250E027007B21BA /* TakeActionVC-initUI.swift in Sources */,
-				943F947F2250E019007B21BA /* TakeActionVC.swift in Sources */,
+				B771383F2251013E00B2E770 /* TransactionsVC-initUI.swift in Sources */,
 				B795F6A2225064130090A127 /* AppDelegate.swift in Sources */,
 				B7DBC27B22507899006ADABD /* SurveyVC.swift in Sources */,
 				B7F4F22722506E05001455A1 /* PlaidAPI.swift in Sources */,
 				B776FE482250C1B0000DF900 /* SurveyResults-logic.swift in Sources */,
 				B78285122250994E00E0DEE3 /* LaunchScreenVC-system.swift in Sources */,
+				B77138402251013E00B2E770 /* TransactionsVC-logic.swift in Sources */,
 				B776FE4C2250C1DA000DF900 /* SurveyVC-system.swift in Sources */,
 				B7F4F1BD22506660001455A1 /* AppDelegate-state.swift in Sources */,
+				B771383D2251013E00B2E770 /* TakeActionVC.swift in Sources */,
 				B7DBC28622507A06006ADABD /* ShopVC.swift in Sources */,
-				943835EC2250BD720013494A /* TransactionsVC.swift in Sources */,
 				943835E02250BAD60013494A /* Transactions.swift in Sources */,
+				B77138412251013E00B2E770 /* TransactionsVC-system.swift in Sources */,
 				B776FE462250C18A000DF900 /* Enums.swift in Sources */,
 				B7F4F22222506DD2001455A1 /* User.swift in Sources */,
 			);
@@ -991,7 +992,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NPD4762C42;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
 				INFOPLIST_FILE = thirdlaw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1010,7 +1011,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NPD4762C42;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
 				INFOPLIST_FILE = thirdlaw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
