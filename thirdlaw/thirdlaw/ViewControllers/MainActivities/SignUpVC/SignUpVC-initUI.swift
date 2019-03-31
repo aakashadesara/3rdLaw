@@ -21,6 +21,7 @@ extension SignUpVC {
         initUserName()
         initPassword()
         initButton()
+        addDismissGestureRecognizer()
     }
     
     func initHeader(){
@@ -135,7 +136,7 @@ extension SignUpVC {
         nextButton.translatesAutoresizingMaskIntoConstraints = false
         nextButton.rightAnchor.constraint(equalToSystemSpacingAfter: self.view.safeAreaLayoutGuide.rightAnchor, multiplier: 1).isActive = true
         
-        nextButton.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -3 * .padding).isActive = true
+        nextButton.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -.padding).isActive = true
         nextButton.widthAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.widthAnchor, multiplier: 1/2).isActive = true
         nextButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
         nextButton.setTitle("Next >", for: .normal)
@@ -144,4 +145,10 @@ extension SignUpVC {
         nextButton.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
     }
     
+    func addDismissGestureRecognizer() {
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(keyboardDismiss)))
+    }
+    @objc func keyboardDismiss() {
+        self.view.firstResponder?.resignFirstResponder()
+    }
 }

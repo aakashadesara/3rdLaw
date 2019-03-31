@@ -15,6 +15,11 @@ extension SurveyResults {
     func getData() {
         self.score = self.results.map({$0.rawValue}).reduce(0, +)
         
+        
+        var percent = Double(score)/Double(maxScore)
+        let tierLevel = Int(percent * Double(EcoFriendliness.cases.count))
+        self.tier = EcoFriendliness.cases[tierLevel]
+        
     }
 
 

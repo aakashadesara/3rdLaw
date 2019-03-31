@@ -155,6 +155,7 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - Plaid (1.1.17)
   - SDWebImage/Core (4.4.6)
   - SDWebImage/GIF (4.4.6):
     - FLAnimatedImage (~> 1.0)
@@ -169,6 +170,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - Plaid
   - SwiftyJSON
 
 SPEC REPOS:
@@ -194,6 +196,7 @@ SPEC REPOS:
     - JGProgressHUD
     - leveldb-library
     - nanopb
+    - Plaid
     - SDWebImage
     - SkyFloatingLabelTextField
     - SwiftyJSON
@@ -220,10 +223,11 @@ SPEC CHECKSUMS:
   JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Plaid: 9640a2b800467e02e9904003dd11a0d3e3bd481a
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 7ec8cd368cc68c6867fa81b7693c10ce76ae9284
+PODFILE CHECKSUM: 278715c8f030d35f65a3deb0283c4206a6e0dd77
 
 COCOAPODS: 1.7.0.beta.3

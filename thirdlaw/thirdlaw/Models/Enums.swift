@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-enum SurveyNiceLevel: Int {
+enum SurveyNiceLevel: Int, CaseIterable {
     case low = 1
     case med = 2
     case high = 3

@@ -20,6 +20,11 @@
 		B776FE482250C1B0000DF900 /* SurveyResults-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */; };
 		B776FE4A2250C1C4000DF900 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE492250C1C4000DF900 /* UIKitExtensions.swift */; };
 		B776FE4C2250C1DA000DF900 /* SurveyVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE4B2250C1DA000DF900 /* SurveyVC-system.swift */; };
+		B776FE4E2250C619000DF900 /* SurveyResults-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE4D2250C619000DF900 /* SurveyResults-initUI.swift */; };
+		B776FE502250D7AE000DF900 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE4F2250D7AE000DF900 /* PaddedLabel.swift */; };
+		B776FE522250E63E000DF900 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B776FE512250E63E000DF900 /* SignUp.storyboard */; };
+		B776FE542250E6C4000DF900 /* SurveyResults-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE532250E6C4000DF900 /* SurveyResults-system.swift */; };
+		B776FE562250EE78000DF900 /* PlaidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE552250EE78000DF900 /* PlaidVC.swift */; };
 		B782850C22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782850B22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift */; };
 		B782850E2250933900E0DEE3 /* LaunchScreenVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782850D2250933900E0DEE3 /* LaunchScreenVC-logic.swift */; };
 		B78285102250985900E0DEE3 /* SurveyVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */; };
@@ -123,6 +128,11 @@
 		B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SurveyResults-logic.swift"; sourceTree = "<group>"; };
 		B776FE492250C1C4000DF900 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		B776FE4B2250C1DA000DF900 /* SurveyVC-system.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SurveyVC-system.swift"; sourceTree = "<group>"; };
+		B776FE4D2250C619000DF900 /* SurveyResults-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyResults-initUI.swift"; sourceTree = "<group>"; };
+		B776FE4F2250D7AE000DF900 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		B776FE512250E63E000DF900 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		B776FE532250E6C4000DF900 /* SurveyResults-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyResults-system.swift"; sourceTree = "<group>"; };
+		B776FE552250EE78000DF900 /* PlaidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidVC.swift; sourceTree = "<group>"; };
 		B782850B22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LaunchScreenVC-initUI.swift"; sourceTree = "<group>"; };
 		B782850D2250933900E0DEE3 /* LaunchScreenVC-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LaunchScreenVC-logic.swift"; sourceTree = "<group>"; };
 		B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-initUI.swift"; sourceTree = "<group>"; };
@@ -276,6 +286,7 @@
 				B795F6A8225064130090A127 /* Assets.xcassets */,
 				B7F4F1C1225066DA001455A1 /* Storyboards */,
 				B795F6AD225064130090A127 /* Info.plist */,
+				B776FE4F2250D7AE000DF900 /* PaddedLabel.swift */,
 			);
 			path = thirdlaw;
 			sourceTree = "<group>";
@@ -315,6 +326,8 @@
 			isa = PBXGroup;
 			children = (
 				B7DBC27E22507931006ADABD /* SurveyResults.swift */,
+				B776FE4D2250C619000DF900 /* SurveyResults-initUI.swift */,
+				B776FE532250E6C4000DF900 /* SurveyResults-system.swift */,
 				B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */,
 			);
 			path = SurveyResultsVC;
@@ -328,6 +341,7 @@
 				B7DBC28722507A0B006ADABD /* ShopVC */,
 				943835EB2250BD720013494A /* TransactionsVC.swift */,
 				943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */,
+				B776FE552250EE78000DF900 /* PlaidVC.swift */,
 			);
 			path = MainActivities;
 			sourceTree = "<group>";
@@ -365,6 +379,7 @@
 				B795F6A5225064130090A127 /* Main.storyboard */,
 				B7F4F21F22506D63001455A1 /* OnboardingSurvey.storyboard */,
 				B7DBC28822507A16006ADABD /* Activities.storyboard */,
+				B776FE512250E63E000DF900 /* SignUp.storyboard */,
 				943835DB22509C610013494A /* testing.storyboard */,
 			);
 			path = Storyboards;
@@ -594,6 +609,7 @@
 				B7F4F20322506A73001455A1 /* ProximaNovaAltExtraCondensedBlack.otf in Resources */,
 				B7F4F20C22506A73001455A1 /* ProximaNovaAltExtraCondensedLight.otf in Resources */,
 				B7F4F1F722506A73001455A1 /* ProximaNovaAltCondensedThin.otf in Resources */,
+				B776FE522250E63E000DF900 /* SignUp.storyboard in Resources */,
 				B7F4F21122506A73001455A1 /* ProximaNovaAltCondensedRegular.otf in Resources */,
 				B795F6AC225064130090A127 /* LaunchScreen.storyboard in Resources */,
 				B7F4F1F822506A73001455A1 /* ProximaNovaAltCondensedThinItalic.otf in Resources */,
@@ -743,14 +759,18 @@
 				B7F4F1C62250671C001455A1 /* AppDelegate-design.swift in Sources */,
 				B782850C22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift in Sources */,
 				B7F4F1C4225066F2001455A1 /* ConstantsAndUtils.swift in Sources */,
+				B776FE562250EE78000DF900 /* PlaidVC.swift in Sources */,
 				B7DBC27F22507931006ADABD /* SurveyResults.swift in Sources */,
 				B7F4F1C0225066A1001455A1 /* UIAttributeExtensions.swift in Sources */,
 				943835EE2250BD9E0013494A /* TransactionsVC-initUI.swift in Sources */,
 				943835E82250BD1D0013494A /* SignUpVC-initUI.swift in Sources */,
 				B776FE4A2250C1C4000DF900 /* UIKitExtensions.swift in Sources */,
+				B776FE542250E6C4000DF900 /* SurveyResults-system.swift in Sources */,
 				943835E92250BD1D0013494A /* SignUpVC.swift in Sources */,
 				B7DBC282225079A7006ADABD /* DonateVC.swift in Sources */,
+				B776FE502250D7AE000DF900 /* PaddedLabel.swift in Sources */,
 				943835E72250BD1D0013494A /* SignUpVC-logic.swift in Sources */,
+				B776FE4E2250C619000DF900 /* SurveyResults-initUI.swift in Sources */,
 				B782850E2250933900E0DEE3 /* LaunchScreenVC-logic.swift in Sources */,
 				B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */,
 				B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */,

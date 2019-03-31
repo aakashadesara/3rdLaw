@@ -8,6 +8,7 @@ target 'thirdlaw' do
   # Pods for thirdlaw
   pod 'ARMDevSuite'
   pod 'Charts'
+  pod 'Plaid'
   
   # Pods for Firebase
   pod 'Firebase/Core'

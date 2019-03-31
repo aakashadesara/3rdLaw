@@ -45,6 +45,7 @@ extension UIColor {
     static let thirdDarkGreen5      = UIColor.colorWithRGB(rgbValue: 0x667B44)
     
     /// Brown
+    static let thirdDarkOrange      = UIColor.colorWithRGB(rgbValue: 0xDB8B12)
     static let thirdBrown           = UIColor.colorWithRGB(rgbValue: 0x825107)
     static let thirdLightGreen      = UIColor.colorWithRGB(rgbValue: 0xDDFFA5)
     

@@ -39,10 +39,21 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6O6-1O-tAe"/>
                     </view>
+                    <connections>
+                        <segue destination="1gU-xx-5j2" kind="show" identifier="results2signup" id="a1s-0z-zeZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cdr-yd-sUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1359" y="-293"/>
+        </scene>
+        <!--SignUp-->
+        <scene sceneID="gFr-QC-aTm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignUp" id="1gU-xx-5j2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wjT-6Q-yx5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1996" y="-293"/>
         </scene>
         <!--SurveyVC-->
         <scene sceneID="jwq-La-5id">
