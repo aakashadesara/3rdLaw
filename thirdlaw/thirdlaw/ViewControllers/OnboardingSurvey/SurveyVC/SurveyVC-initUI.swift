@@ -64,7 +64,6 @@ extension SurveyVC {
             butt.setImage(UIImage.buttonCheck.withRenderingMode(.alwaysTemplate), for: .selected)
             butt.tintColor = .thirdBrown
             butt.tag = i
-            butt.addTarget(self, action: #selector(<#T##@objc method#>), for: <#T##UIControl.Event#>)
             
             let label = UILabel(); view.addSubview(label)
                 label.translatesAutoresizingMaskIntoConstraints = false

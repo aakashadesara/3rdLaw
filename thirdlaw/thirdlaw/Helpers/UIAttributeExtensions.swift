@@ -47,6 +47,10 @@ extension UIColor {
     /// Brown
     static let thirdBrown           = UIColor.colorWithRGB(rgbValue: 0x825107)
     static let thirdLightGreen      = UIColor.colorWithRGB(rgbValue: 0xDDFFA5)
+    
+    ///Gray
+    static let thirdLightGray            = UIColor.colorWithRGB(rgbValue: 0xC4C4C4)
+    
 }
 
 extension CGFloat {
