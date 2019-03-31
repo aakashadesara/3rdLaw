@@ -14,8 +14,17 @@ import ARMDevSuite
 class TransactionsVC: UIViewController {
     var header: UILabel!
     var topBar: UIView!
+    var transactions = [Transaction]()
+    var moreResults: UILabel!
+    var loadMoreButton: UIButton!
+    var analysisButton: UIButton!
+    var bottomAnchorTransactions: NSLayoutYAxisAnchor!
+    
+    var alerts: AlertManager!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        getData()
         initUI()
     }
     
