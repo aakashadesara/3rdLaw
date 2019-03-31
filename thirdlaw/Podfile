@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'thirdlaw' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for thirdlaw
+  pod 'ARMDevSuite'
+  pod 'Charts'
+  
+  # Pods for Firebase
+  pod 'Firebase/Core'
+  pod 'Firebase/Database' # Access Application Database
+  pod 'Firebase/Storage' # Access stored images
+  
+  # Pods for API
+  pod 'Alamofire', :inhibit_warnings => true
+  pod 'SwiftyJSON', :inhibit_warnings => true
+  
+  
+  
+  target 'thirdlawTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'thirdlawUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

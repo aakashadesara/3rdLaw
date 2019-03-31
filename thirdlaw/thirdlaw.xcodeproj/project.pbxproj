@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F3E60FD1191A01C6AB9178 /* Pods_thirdlawTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A25684F409CDD6CCD95039 /* Pods_thirdlawTests.framework */; };
+		5DB571436E7D4C29CF4AC1D5 /* Pods_thirdlaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608314505308CF6D9B13125B /* Pods_thirdlaw.framework */; };
+		B795F6A2225064130090A127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A1225064130090A127 /* AppDelegate.swift */; };
+		B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A3225064130090A127 /* LaunchScreenVC.swift */; };
+		B795F6A7225064130090A127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B795F6A5225064130090A127 /* Main.storyboard */; };
+		B795F6A9225064130090A127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B795F6A8225064130090A127 /* Assets.xcassets */; };
+		B795F6AC225064130090A127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B795F6AA225064130090A127 /* LaunchScreen.storyboard */; };
+		B7F4F1BD22506660001455A1 /* AppDelegate-state.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4F1BC22506660001455A1 /* AppDelegate-state.swift */; };
+		B7F4F1C0225066A1001455A1 /* UIAttributeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4F1BF225066A1001455A1 /* UIAttributeExtensions.swift */; };
+		B7F4F1C4225066F2001455A1 /* ConstantsAndUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4F1C3225066F2001455A1 /* ConstantsAndUtils.swift */; };
+		B7F4F1C62250671C001455A1 /* AppDelegate-design.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4F1C52250671C001455A1 /* AppDelegate-design.swift */; };
+		B7F4F1F322506A73001455A1 /* ProximaNovaAltExtraCondensedRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1C822506A73001455A1 /* ProximaNovaAltExtraCondensedRegular.otf */; };
+		B7F4F1F422506A73001455A1 /* ProximaNovaAltCondensedExtrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1C922506A73001455A1 /* ProximaNovaAltCondensedExtrabold.otf */; };
+		B7F4F1F522506A73001455A1 /* ProximaNovaAltCondensedBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1CA22506A73001455A1 /* ProximaNovaAltCondensedBold.otf */; };
+		B7F4F1F622506A73001455A1 /* ProximaNovaAltExtraCondensedExtraboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1CB22506A73001455A1 /* ProximaNovaAltExtraCondensedExtraboldItalic.otf */; };
+		B7F4F1F722506A73001455A1 /* ProximaNovaAltCondensedThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1CC22506A73001455A1 /* ProximaNovaAltCondensedThin.otf */; };
+		B7F4F1F822506A73001455A1 /* ProximaNovaAltCondensedThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1CD22506A73001455A1 /* ProximaNovaAltCondensedThinItalic.otf */; };
+		B7F4F1F922506A73001455A1 /* ProximaNovaAltExtraCondensedThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1CE22506A73001455A1 /* ProximaNovaAltExtraCondensedThinItalic.otf */; };
+		B7F4F1FA22506A73001455A1 /* ProximaNovaAltCondensedBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1CF22506A73001455A1 /* ProximaNovaAltCondensedBoldItalic.otf */; };
+		B7F4F1FB22506A73001455A1 /* ProximaNovaAltExtraCondensedBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D022506A73001455A1 /* ProximaNovaAltExtraCondensedBoldItalic.otf */; };
+		B7F4F1FC22506A73001455A1 /* ProximaNovaAltExtraCondensedSemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D122506A73001455A1 /* ProximaNovaAltExtraCondensedSemiboldItalic.otf */; };
+		B7F4F1FD22506A73001455A1 /* ProximaNovaAltCondensedSemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D222506A73001455A1 /* ProximaNovaAltCondensedSemiboldItalic.otf */; };
+		B7F4F1FE22506A73001455A1 /* ProximaNovaAltExtraCondensedExtrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D322506A73001455A1 /* ProximaNovaAltExtraCondensedExtrabold.otf */; };
+		B7F4F1FF22506A73001455A1 /* ProximaNovaAltCondensedLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D422506A73001455A1 /* ProximaNovaAltCondensedLight.otf */; };
+		B7F4F20022506A73001455A1 /* ProximaNovaAltThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D522506A73001455A1 /* ProximaNovaAltThinItalic.otf */; };
+		B7F4F20122506A73001455A1 /* ProximaNovaAltBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D622506A73001455A1 /* ProximaNovaAltBlack.otf */; };
+		B7F4F20222506A73001455A1 /* ProximaNovaAltBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D722506A73001455A1 /* ProximaNovaAltBoldItalic.otf */; };
+		B7F4F20322506A73001455A1 /* ProximaNovaAltExtraCondensedBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D822506A73001455A1 /* ProximaNovaAltExtraCondensedBlack.otf */; };
+		B7F4F20422506A73001455A1 /* ProximaNovaAltExtraCondensedRegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1D922506A73001455A1 /* ProximaNovaAltExtraCondensedRegularItalic.otf */; };
+		B7F4F20522506A73001455A1 /* ProximaNovaAltCondensedRegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1DA22506A73001455A1 /* ProximaNovaAltCondensedRegularItalic.otf */; };
+		B7F4F20622506A73001455A1 /* ProximaNovaAltCondensedBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1DB22506A73001455A1 /* ProximaNovaAltCondensedBlack.otf */; };
+		B7F4F20722506A73001455A1 /* ProximaNovaAltCondensedExtraboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1DC22506A73001455A1 /* ProximaNovaAltCondensedExtraboldItalic.otf */; };
+		B7F4F20822506A73001455A1 /* ProximaNovaAltExtraCondensedBlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1DD22506A73001455A1 /* ProximaNovaAltExtraCondensedBlackItalic.otf */; };
+		B7F4F20922506A73001455A1 /* ProximaNovaAltRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1DE22506A73001455A1 /* ProximaNovaAltRegular.otf */; };
+		B7F4F20A22506A73001455A1 /* ProximaNovaAltBlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1DF22506A73001455A1 /* ProximaNovaAltBlackItalic.otf */; };
+		B7F4F20B22506A73001455A1 /* ProximaNovaAltCondensedBlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E022506A73001455A1 /* ProximaNovaAltCondensedBlackItalic.otf */; };
+		B7F4F20C22506A73001455A1 /* ProximaNovaAltExtraCondensedLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E122506A73001455A1 /* ProximaNovaAltExtraCondensedLight.otf */; };
+		B7F4F20D22506A73001455A1 /* ProximaNovaAltExtraCondensedThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E222506A73001455A1 /* ProximaNovaAltExtraCondensedThin.otf */; };
+		B7F4F20E22506A73001455A1 /* ProximaNovaAltSemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E322506A73001455A1 /* ProximaNovaAltSemiboldItalic.otf */; };
+		B7F4F20F22506A73001455A1 /* ProximaNovaAltLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E422506A73001455A1 /* ProximaNovaAltLight.otf */; };
+		B7F4F21022506A73001455A1 /* ProximaNovaAltExtraCondensedBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E522506A73001455A1 /* ProximaNovaAltExtraCondensedBold.otf */; };
+		B7F4F21122506A73001455A1 /* ProximaNovaAltCondensedRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E622506A73001455A1 /* ProximaNovaAltCondensedRegular.otf */; };
+		B7F4F21222506A73001455A1 /* ProximaNovaAltBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E722506A73001455A1 /* ProximaNovaAltBold.otf */; };
+		B7F4F21322506A73001455A1 /* ProximaNovaAltCondensedSemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E822506A73001455A1 /* ProximaNovaAltCondensedSemibold.otf */; };
+		B7F4F21422506A73001455A1 /* ProximaNovaAltExtraCondensedSemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1E922506A73001455A1 /* ProximaNovaAltExtraCondensedSemibold.otf */; };
+		B7F4F21522506A73001455A1 /* ProximaNovaAltSemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1EA22506A73001455A1 /* ProximaNovaAltSemibold.otf */; };
+		B7F4F21622506A73001455A1 /* Abel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1EB22506A73001455A1 /* Abel-Regular.ttf */; };
+		B7F4F21722506A73001455A1 /* ProximaNovaAltExtrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1EC22506A73001455A1 /* ProximaNovaAltExtrabold.otf */; };
+		B7F4F21822506A73001455A1 /* ProximaNovaAltExtraboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1ED22506A73001455A1 /* ProximaNovaAltExtraboldItalic.otf */; };
+		B7F4F21922506A73001455A1 /* ProximaNovaAltExtraCondensedLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1EE22506A73001455A1 /* ProximaNovaAltExtraCondensedLightItalic.otf */; };
+		B7F4F21A22506A73001455A1 /* ProximaNovaAltCondensedLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1EF22506A73001455A1 /* ProximaNovaAltCondensedLightItalic.otf */; };
+		B7F4F21B22506A73001455A1 /* ProximaNovaAltLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1F022506A73001455A1 /* ProximaNovaAltLightItalic.otf */; };
+		B7F4F21C22506A73001455A1 /* ProximaNovaAltRegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1F122506A73001455A1 /* ProximaNovaAltRegularItalic.otf */; };
+		B7F4F21D22506A73001455A1 /* ProximaNovaAltThin.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F1F222506A73001455A1 /* ProximaNovaAltThin.otf */; };
+		B7F4F22022506D63001455A1 /* OnboardingSurvey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F4F21F22506D63001455A1 /* OnboardingSurvey.storyboard */; };
+		B7F4F22222506DD2001455A1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4F22122506DD2001455A1 /* User.swift */; };
+		B7F4F22722506E05001455A1 /* PlaidAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F4F22622506E05001455A1 /* PlaidAPI.swift */; };
+		EE28062674B6E74DB249224F /* Pods_thirdlawUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF30C52A70F4BD55919CEC59 /* Pods_thirdlawUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B795F6B3225064140090A127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B795F696225064120090A127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B795F69D225064130090A127;
+			remoteInfo = thirdlaw;
+		};
+		B795F6BE225064140090A127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B795F696225064120090A127 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B795F69D225064130090A127;
+			remoteInfo = thirdlaw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A25684F409CDD6CCD95039 /* Pods_thirdlawTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thirdlawTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B7D8B2BC5F0014A63AE11E /* Pods-thirdlaw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlaw.debug.xcconfig"; path = "Target Support Files/Pods-thirdlaw/Pods-thirdlaw.debug.xcconfig"; sourceTree = "<group>"; };
+		608314505308CF6D9B13125B /* Pods_thirdlaw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thirdlaw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E34FF899B7A6217C22F274C /* Pods-thirdlawUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawUITests.debug.xcconfig"; path = "Target Support Files/Pods-thirdlawUITests/Pods-thirdlawUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E477A215BC1F16D6EFFA5F3 /* Pods-thirdlawUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawUITests.release.xcconfig"; path = "Target Support Files/Pods-thirdlawUITests/Pods-thirdlawUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1ACCC80685673C3CBB2CC39 /* Pods-thirdlawTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawTests.debug.xcconfig"; path = "Target Support Files/Pods-thirdlawTests/Pods-thirdlawTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B795F69E225064130090A127 /* thirdlaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thirdlaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B795F6A1225064130090A127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B795F6A3225064130090A127 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+		B795F6A6225064130090A127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B795F6A8225064130090A127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B795F6AB225064130090A127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B795F6AD225064130090A127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B795F6B2225064140090A127 /* thirdlawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thirdlawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B795F6BD225064140090A127 /* thirdlawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thirdlawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F4F1BC22506660001455A1 /* AppDelegate-state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate-state.swift"; sourceTree = "<group>"; };
+		B7F4F1BF225066A1001455A1 /* UIAttributeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAttributeExtensions.swift; sourceTree = "<group>"; };
+		B7F4F1C3225066F2001455A1 /* ConstantsAndUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsAndUtils.swift; sourceTree = "<group>"; };
+		B7F4F1C52250671C001455A1 /* AppDelegate-design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate-design.swift"; sourceTree = "<group>"; };
+		B7F4F1C822506A73001455A1 /* ProximaNovaAltExtraCondensedRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedRegular.otf; sourceTree = "<group>"; };
+		B7F4F1C922506A73001455A1 /* ProximaNovaAltCondensedExtrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedExtrabold.otf; sourceTree = "<group>"; };
+		B7F4F1CA22506A73001455A1 /* ProximaNovaAltCondensedBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedBold.otf; sourceTree = "<group>"; };
+		B7F4F1CB22506A73001455A1 /* ProximaNovaAltExtraCondensedExtraboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedExtraboldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1CC22506A73001455A1 /* ProximaNovaAltCondensedThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedThin.otf; sourceTree = "<group>"; };
+		B7F4F1CD22506A73001455A1 /* ProximaNovaAltCondensedThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedThinItalic.otf; sourceTree = "<group>"; };
+		B7F4F1CE22506A73001455A1 /* ProximaNovaAltExtraCondensedThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedThinItalic.otf; sourceTree = "<group>"; };
+		B7F4F1CF22506A73001455A1 /* ProximaNovaAltCondensedBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedBoldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1D022506A73001455A1 /* ProximaNovaAltExtraCondensedBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedBoldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1D122506A73001455A1 /* ProximaNovaAltExtraCondensedSemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedSemiboldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1D222506A73001455A1 /* ProximaNovaAltCondensedSemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedSemiboldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1D322506A73001455A1 /* ProximaNovaAltExtraCondensedExtrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedExtrabold.otf; sourceTree = "<group>"; };
+		B7F4F1D422506A73001455A1 /* ProximaNovaAltCondensedLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedLight.otf; sourceTree = "<group>"; };
+		B7F4F1D522506A73001455A1 /* ProximaNovaAltThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltThinItalic.otf; sourceTree = "<group>"; };
+		B7F4F1D622506A73001455A1 /* ProximaNovaAltBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltBlack.otf; sourceTree = "<group>"; };
+		B7F4F1D722506A73001455A1 /* ProximaNovaAltBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltBoldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1D822506A73001455A1 /* ProximaNovaAltExtraCondensedBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedBlack.otf; sourceTree = "<group>"; };
+		B7F4F1D922506A73001455A1 /* ProximaNovaAltExtraCondensedRegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedRegularItalic.otf; sourceTree = "<group>"; };
+		B7F4F1DA22506A73001455A1 /* ProximaNovaAltCondensedRegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedRegularItalic.otf; sourceTree = "<group>"; };
+		B7F4F1DB22506A73001455A1 /* ProximaNovaAltCondensedBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedBlack.otf; sourceTree = "<group>"; };
+		B7F4F1DC22506A73001455A1 /* ProximaNovaAltCondensedExtraboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedExtraboldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1DD22506A73001455A1 /* ProximaNovaAltExtraCondensedBlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedBlackItalic.otf; sourceTree = "<group>"; };
+		B7F4F1DE22506A73001455A1 /* ProximaNovaAltRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltRegular.otf; sourceTree = "<group>"; };
+		B7F4F1DF22506A73001455A1 /* ProximaNovaAltBlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltBlackItalic.otf; sourceTree = "<group>"; };
+		B7F4F1E022506A73001455A1 /* ProximaNovaAltCondensedBlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedBlackItalic.otf; sourceTree = "<group>"; };
+		B7F4F1E122506A73001455A1 /* ProximaNovaAltExtraCondensedLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedLight.otf; sourceTree = "<group>"; };
+		B7F4F1E222506A73001455A1 /* ProximaNovaAltExtraCondensedThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedThin.otf; sourceTree = "<group>"; };
+		B7F4F1E322506A73001455A1 /* ProximaNovaAltSemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltSemiboldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1E422506A73001455A1 /* ProximaNovaAltLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltLight.otf; sourceTree = "<group>"; };
+		B7F4F1E522506A73001455A1 /* ProximaNovaAltExtraCondensedBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedBold.otf; sourceTree = "<group>"; };
+		B7F4F1E622506A73001455A1 /* ProximaNovaAltCondensedRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedRegular.otf; sourceTree = "<group>"; };
+		B7F4F1E722506A73001455A1 /* ProximaNovaAltBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltBold.otf; sourceTree = "<group>"; };
+		B7F4F1E822506A73001455A1 /* ProximaNovaAltCondensedSemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedSemibold.otf; sourceTree = "<group>"; };
+		B7F4F1E922506A73001455A1 /* ProximaNovaAltExtraCondensedSemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedSemibold.otf; sourceTree = "<group>"; };
+		B7F4F1EA22506A73001455A1 /* ProximaNovaAltSemibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltSemibold.otf; sourceTree = "<group>"; };
+		B7F4F1EB22506A73001455A1 /* Abel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Abel-Regular.ttf"; sourceTree = "<group>"; };
+		B7F4F1EC22506A73001455A1 /* ProximaNovaAltExtrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtrabold.otf; sourceTree = "<group>"; };
+		B7F4F1ED22506A73001455A1 /* ProximaNovaAltExtraboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraboldItalic.otf; sourceTree = "<group>"; };
+		B7F4F1EE22506A73001455A1 /* ProximaNovaAltExtraCondensedLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltExtraCondensedLightItalic.otf; sourceTree = "<group>"; };
+		B7F4F1EF22506A73001455A1 /* ProximaNovaAltCondensedLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltCondensedLightItalic.otf; sourceTree = "<group>"; };
+		B7F4F1F022506A73001455A1 /* ProximaNovaAltLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltLightItalic.otf; sourceTree = "<group>"; };
+		B7F4F1F122506A73001455A1 /* ProximaNovaAltRegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltRegularItalic.otf; sourceTree = "<group>"; };
+		B7F4F1F222506A73001455A1 /* ProximaNovaAltThin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaAltThin.otf; sourceTree = "<group>"; };
+		B7F4F21F22506D63001455A1 /* OnboardingSurvey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingSurvey.storyboard; sourceTree = "<group>"; };
+		B7F4F22122506DD2001455A1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B7F4F22622506E05001455A1 /* PlaidAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidAPI.swift; sourceTree = "<group>"; };
+		C0545D54EA160DB90F5174ED /* Pods-thirdlawTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawTests.release.xcconfig"; path = "Target Support Files/Pods-thirdlawTests/Pods-thirdlawTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF30C52A70F4BD55919CEC59 /* Pods_thirdlawUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thirdlawUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E276ABB117EAE28745CAAEA6 /* Pods-thirdlaw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlaw.release.xcconfig"; path = "Target Support Files/Pods-thirdlaw/Pods-thirdlaw.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B795F69B225064130090A127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB571436E7D4C29CF4AC1D5 /* Pods_thirdlaw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795F6AF225064140090A127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3E60FD1191A01C6AB9178 /* Pods_thirdlawTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795F6BA225064140090A127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE28062674B6E74DB249224F /* Pods_thirdlawUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BA325C4A7E1877BA7C6973A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				608314505308CF6D9B13125B /* Pods_thirdlaw.framework */,
+				18A25684F409CDD6CCD95039 /* Pods_thirdlawTests.framework */,
+				CF30C52A70F4BD55919CEC59 /* Pods_thirdlawUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B795F695225064120090A127 = {
+			isa = PBXGroup;
+			children = (
+				B795F6A0225064130090A127 /* thirdlaw */,
+				B795F69F225064130090A127 /* Products */,
+				ECDB2C730BC04CCFC3F4BBE8 /* Pods */,
+				4BA325C4A7E1877BA7C6973A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B795F69F225064130090A127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B795F69E225064130090A127 /* thirdlaw.app */,
+				B795F6B2225064140090A127 /* thirdlawTests.xctest */,
+				B795F6BD225064140090A127 /* thirdlawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B795F6A0225064130090A127 /* thirdlaw */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4F1BE22506665001455A1 /* AppDelegates */,
+				B7F4F1C2225066E8001455A1 /* Helpers */,
+				B7F4F22822506E0A001455A1 /* Clients */,
+				B7F4F22322506DDA001455A1 /* Models */,
+				B7F4F21E22506CDB001455A1 /* ViewControllers */,
+				B795F6A8225064130090A127 /* Assets.xcassets */,
+				B7F4F1C1225066DA001455A1 /* Storyboards */,
+				B795F6AD225064130090A127 /* Info.plist */,
+			);
+			path = thirdlaw;
+			sourceTree = "<group>";
+		};
+		B7F4F1BE22506665001455A1 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				B795F6A1225064130090A127 /* AppDelegate.swift */,
+				B7F4F1C52250671C001455A1 /* AppDelegate-design.swift */,
+				B7F4F1BC22506660001455A1 /* AppDelegate-state.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		B7F4F1C1225066DA001455A1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B795F6A5225064130090A127 /* Main.storyboard */,
+				B795F6AA225064130090A127 /* LaunchScreen.storyboard */,
+				B7F4F21F22506D63001455A1 /* OnboardingSurvey.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B7F4F1C2225066E8001455A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4F1C722506A73001455A1 /* fonts */,
+				B7F4F1BF225066A1001455A1 /* UIAttributeExtensions.swift */,
+				B7F4F1C3225066F2001455A1 /* ConstantsAndUtils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B7F4F1C722506A73001455A1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4F1EB22506A73001455A1 /* Abel-Regular.ttf */,
+				B7F4F1C822506A73001455A1 /* ProximaNovaAltExtraCondensedRegular.otf */,
+				B7F4F1C922506A73001455A1 /* ProximaNovaAltCondensedExtrabold.otf */,
+				B7F4F1CA22506A73001455A1 /* ProximaNovaAltCondensedBold.otf */,
+				B7F4F1CB22506A73001455A1 /* ProximaNovaAltExtraCondensedExtraboldItalic.otf */,
+				B7F4F1CC22506A73001455A1 /* ProximaNovaAltCondensedThin.otf */,
+				B7F4F1CD22506A73001455A1 /* ProximaNovaAltCondensedThinItalic.otf */,
+				B7F4F1CE22506A73001455A1 /* ProximaNovaAltExtraCondensedThinItalic.otf */,
+				B7F4F1CF22506A73001455A1 /* ProximaNovaAltCondensedBoldItalic.otf */,
+				B7F4F1D022506A73001455A1 /* ProximaNovaAltExtraCondensedBoldItalic.otf */,
+				B7F4F1D122506A73001455A1 /* ProximaNovaAltExtraCondensedSemiboldItalic.otf */,
+				B7F4F1D222506A73001455A1 /* ProximaNovaAltCondensedSemiboldItalic.otf */,
+				B7F4F1D322506A73001455A1 /* ProximaNovaAltExtraCondensedExtrabold.otf */,
+				B7F4F1D422506A73001455A1 /* ProximaNovaAltCondensedLight.otf */,
+				B7F4F1D522506A73001455A1 /* ProximaNovaAltThinItalic.otf */,
+				B7F4F1D622506A73001455A1 /* ProximaNovaAltBlack.otf */,
+				B7F4F1D722506A73001455A1 /* ProximaNovaAltBoldItalic.otf */,
+				B7F4F1D822506A73001455A1 /* ProximaNovaAltExtraCondensedBlack.otf */,
+				B7F4F1D922506A73001455A1 /* ProximaNovaAltExtraCondensedRegularItalic.otf */,
+				B7F4F1DA22506A73001455A1 /* ProximaNovaAltCondensedRegularItalic.otf */,
+				B7F4F1DB22506A73001455A1 /* ProximaNovaAltCondensedBlack.otf */,
+				B7F4F1DC22506A73001455A1 /* ProximaNovaAltCondensedExtraboldItalic.otf */,
+				B7F4F1DD22506A73001455A1 /* ProximaNovaAltExtraCondensedBlackItalic.otf */,
+				B7F4F1DE22506A73001455A1 /* ProximaNovaAltRegular.otf */,
+				B7F4F1DF22506A73001455A1 /* ProximaNovaAltBlackItalic.otf */,
+				B7F4F1E022506A73001455A1 /* ProximaNovaAltCondensedBlackItalic.otf */,
+				B7F4F1E122506A73001455A1 /* ProximaNovaAltExtraCondensedLight.otf */,
+				B7F4F1E222506A73001455A1 /* ProximaNovaAltExtraCondensedThin.otf */,
+				B7F4F1E322506A73001455A1 /* ProximaNovaAltSemiboldItalic.otf */,
+				B7F4F1E422506A73001455A1 /* ProximaNovaAltLight.otf */,
+				B7F4F1E522506A73001455A1 /* ProximaNovaAltExtraCondensedBold.otf */,
+				B7F4F1E622506A73001455A1 /* ProximaNovaAltCondensedRegular.otf */,
+				B7F4F1E722506A73001455A1 /* ProximaNovaAltBold.otf */,
+				B7F4F1E822506A73001455A1 /* ProximaNovaAltCondensedSemibold.otf */,
+				B7F4F1E922506A73001455A1 /* ProximaNovaAltExtraCondensedSemibold.otf */,
+				B7F4F1EA22506A73001455A1 /* ProximaNovaAltSemibold.otf */,
+				B7F4F1EC22506A73001455A1 /* ProximaNovaAltExtrabold.otf */,
+				B7F4F1ED22506A73001455A1 /* ProximaNovaAltExtraboldItalic.otf */,
+				B7F4F1EE22506A73001455A1 /* ProximaNovaAltExtraCondensedLightItalic.otf */,
+				B7F4F1EF22506A73001455A1 /* ProximaNovaAltCondensedLightItalic.otf */,
+				B7F4F1F022506A73001455A1 /* ProximaNovaAltLightItalic.otf */,
+				B7F4F1F122506A73001455A1 /* ProximaNovaAltRegularItalic.otf */,
+				B7F4F1F222506A73001455A1 /* ProximaNovaAltThin.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		B7F4F21E22506CDB001455A1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B795F6A3225064130090A127 /* LaunchScreenVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B7F4F22322506DDA001455A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4F22122506DD2001455A1 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7F4F22822506E0A001455A1 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				B7F4F22622506E05001455A1 /* PlaidAPI.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		ECDB2C730BC04CCFC3F4BBE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43B7D8B2BC5F0014A63AE11E /* Pods-thirdlaw.debug.xcconfig */,
+				E276ABB117EAE28745CAAEA6 /* Pods-thirdlaw.release.xcconfig */,
+				A1ACCC80685673C3CBB2CC39 /* Pods-thirdlawTests.debug.xcconfig */,
+				C0545D54EA160DB90F5174ED /* Pods-thirdlawTests.release.xcconfig */,
+				9E34FF899B7A6217C22F274C /* Pods-thirdlawUITests.debug.xcconfig */,
+				9E477A215BC1F16D6EFFA5F3 /* Pods-thirdlawUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B795F69D225064130090A127 /* thirdlaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B795F6C6225064140090A127 /* Build configuration list for PBXNativeTarget "thirdlaw" */;
+			buildPhases = (
+				6A7BA7044BFBD9EDF8BBABDF /* [CP] Check Pods Manifest.lock */,
+				B795F69A225064130090A127 /* Sources */,
+				B795F69B225064130090A127 /* Frameworks */,
+				B795F69C225064130090A127 /* Resources */,
+				A9D502355CC306503E536986 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thirdlaw;
+			productName = thirdlaw;
+			productReference = B795F69E225064130090A127 /* thirdlaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B795F6B1225064140090A127 /* thirdlawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B795F6C9225064140090A127 /* Build configuration list for PBXNativeTarget "thirdlawTests" */;
+			buildPhases = (
+				2B4B836F82AFF90C492E49C3 /* [CP] Check Pods Manifest.lock */,
+				B795F6AE225064140090A127 /* Sources */,
+				B795F6AF225064140090A127 /* Frameworks */,
+				B795F6B0225064140090A127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B795F6B4225064140090A127 /* PBXTargetDependency */,
+			);
+			name = thirdlawTests;
+			productName = thirdlawTests;
+			productReference = B795F6B2225064140090A127 /* thirdlawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B795F6BC225064140090A127 /* thirdlawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B795F6CC225064140090A127 /* Build configuration list for PBXNativeTarget "thirdlawUITests" */;
+			buildPhases = (
+				972D08565AC2BA9951FC0423 /* [CP] Check Pods Manifest.lock */,
+				B795F6B9225064140090A127 /* Sources */,
+				B795F6BA225064140090A127 /* Frameworks */,
+				B795F6BB225064140090A127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B795F6BF225064140090A127 /* PBXTargetDependency */,
+			);
+			name = thirdlawUITests;
+			productName = thirdlawUITests;
+			productReference = B795F6BD225064140090A127 /* thirdlawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B795F696225064120090A127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ajay Merchia";
+				TargetAttributes = {
+					B795F69D225064130090A127 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B795F6B1225064140090A127 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B795F69D225064130090A127;
+					};
+					B795F6BC225064140090A127 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B795F69D225064130090A127;
+					};
+				};
+			};
+			buildConfigurationList = B795F699225064120090A127 /* Build configuration list for PBXProject "thirdlaw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B795F695225064120090A127;
+			productRefGroup = B795F69F225064130090A127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B795F69D225064130090A127 /* thirdlaw */,
+				B795F6B1225064140090A127 /* thirdlawTests */,
+				B795F6BC225064140090A127 /* thirdlawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B795F69C225064130090A127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F4F1FB22506A73001455A1 /* ProximaNovaAltExtraCondensedBoldItalic.otf in Resources */,
+				B7F4F21622506A73001455A1 /* Abel-Regular.ttf in Resources */,
+				B7F4F20922506A73001455A1 /* ProximaNovaAltRegular.otf in Resources */,
+				B7F4F21C22506A73001455A1 /* ProximaNovaAltRegularItalic.otf in Resources */,
+				B7F4F1F922506A73001455A1 /* ProximaNovaAltExtraCondensedThinItalic.otf in Resources */,
+				B7F4F1FC22506A73001455A1 /* ProximaNovaAltExtraCondensedSemiboldItalic.otf in Resources */,
+				B7F4F21222506A73001455A1 /* ProximaNovaAltBold.otf in Resources */,
+				B7F4F21422506A73001455A1 /* ProximaNovaAltExtraCondensedSemibold.otf in Resources */,
+				B7F4F1FD22506A73001455A1 /* ProximaNovaAltCondensedSemiboldItalic.otf in Resources */,
+				B7F4F1F322506A73001455A1 /* ProximaNovaAltExtraCondensedRegular.otf in Resources */,
+				B7F4F20322506A73001455A1 /* ProximaNovaAltExtraCondensedBlack.otf in Resources */,
+				B7F4F20C22506A73001455A1 /* ProximaNovaAltExtraCondensedLight.otf in Resources */,
+				B7F4F1F722506A73001455A1 /* ProximaNovaAltCondensedThin.otf in Resources */,
+				B7F4F21122506A73001455A1 /* ProximaNovaAltCondensedRegular.otf in Resources */,
+				B795F6AC225064130090A127 /* LaunchScreen.storyboard in Resources */,
+				B7F4F1F822506A73001455A1 /* ProximaNovaAltCondensedThinItalic.otf in Resources */,
+				B795F6A9225064130090A127 /* Assets.xcassets in Resources */,
+				B7F4F1FA22506A73001455A1 /* ProximaNovaAltCondensedBoldItalic.otf in Resources */,
+				B7F4F20122506A73001455A1 /* ProximaNovaAltBlack.otf in Resources */,
+				B7F4F21D22506A73001455A1 /* ProximaNovaAltThin.otf in Resources */,
+				B795F6A7225064130090A127 /* Main.storyboard in Resources */,
+				B7F4F20E22506A73001455A1 /* ProximaNovaAltSemiboldItalic.otf in Resources */,
+				B7F4F21A22506A73001455A1 /* ProximaNovaAltCondensedLightItalic.otf in Resources */,
+				B7F4F1F622506A73001455A1 /* ProximaNovaAltExtraCondensedExtraboldItalic.otf in Resources */,
+				B7F4F20822506A73001455A1 /* ProximaNovaAltExtraCondensedBlackItalic.otf in Resources */,
+				B7F4F1F422506A73001455A1 /* ProximaNovaAltCondensedExtrabold.otf in Resources */,
+				B7F4F20622506A73001455A1 /* ProximaNovaAltCondensedBlack.otf in Resources */,
+				B7F4F20A22506A73001455A1 /* ProximaNovaAltBlackItalic.otf in Resources */,
+				B7F4F21022506A73001455A1 /* ProximaNovaAltExtraCondensedBold.otf in Resources */,
+				B7F4F21922506A73001455A1 /* ProximaNovaAltExtraCondensedLightItalic.otf in Resources */,
+				B7F4F20422506A73001455A1 /* ProximaNovaAltExtraCondensedRegularItalic.otf in Resources */,
+				B7F4F1F522506A73001455A1 /* ProximaNovaAltCondensedBold.otf in Resources */,
+				B7F4F21722506A73001455A1 /* ProximaNovaAltExtrabold.otf in Resources */,
+				B7F4F20022506A73001455A1 /* ProximaNovaAltThinItalic.otf in Resources */,
+				B7F4F1FF22506A73001455A1 /* ProximaNovaAltCondensedLight.otf in Resources */,
+				B7F4F20D22506A73001455A1 /* ProximaNovaAltExtraCondensedThin.otf in Resources */,
+				B7F4F21322506A73001455A1 /* ProximaNovaAltCondensedSemibold.otf in Resources */,
+				B7F4F20722506A73001455A1 /* ProximaNovaAltCondensedExtraboldItalic.otf in Resources */,
+				B7F4F20F22506A73001455A1 /* ProximaNovaAltLight.otf in Resources */,
+				B7F4F21822506A73001455A1 /* ProximaNovaAltExtraboldItalic.otf in Resources */,
+				B7F4F21522506A73001455A1 /* ProximaNovaAltSemibold.otf in Resources */,
+				B7F4F20B22506A73001455A1 /* ProximaNovaAltCondensedBlackItalic.otf in Resources */,
+				B7F4F22022506D63001455A1 /* OnboardingSurvey.storyboard in Resources */,
+				B7F4F20222506A73001455A1 /* ProximaNovaAltBoldItalic.otf in Resources */,
+				B7F4F1FE22506A73001455A1 /* ProximaNovaAltExtraCondensedExtrabold.otf in Resources */,
+				B7F4F20522506A73001455A1 /* ProximaNovaAltCondensedRegularItalic.otf in Resources */,
+				B7F4F21B22506A73001455A1 /* ProximaNovaAltLightItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795F6B0225064140090A127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795F6BB225064140090A127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4B836F82AFF90C492E49C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-thirdlawTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A7BA7044BFBD9EDF8BBABDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-thirdlaw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		972D08565AC2BA9951FC0423 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-thirdlawUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D502355CC306503E536986 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thirdlaw/Pods-thirdlaw-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thirdlaw/Pods-thirdlaw-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-thirdlaw/Pods-thirdlaw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B795F69A225064130090A127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F4F1C62250671C001455A1 /* AppDelegate-design.swift in Sources */,
+				B7F4F1C4225066F2001455A1 /* ConstantsAndUtils.swift in Sources */,
+				B7F4F1C0225066A1001455A1 /* UIAttributeExtensions.swift in Sources */,
+				B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */,
+				B795F6A2225064130090A127 /* AppDelegate.swift in Sources */,
+				B7F4F22722506E05001455A1 /* PlaidAPI.swift in Sources */,
+				B7F4F1BD22506660001455A1 /* AppDelegate-state.swift in Sources */,
+				B7F4F22222506DD2001455A1 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795F6AE225064140090A127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795F6B9225064140090A127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B795F6B4225064140090A127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B795F69D225064130090A127 /* thirdlaw */;
+			targetProxy = B795F6B3225064140090A127 /* PBXContainerItemProxy */;
+		};
+		B795F6BF225064140090A127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B795F69D225064130090A127 /* thirdlaw */;
+			targetProxy = B795F6BE225064140090A127 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B795F6A5225064130090A127 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B795F6A6225064130090A127 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B795F6AA225064130090A127 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B795F6AB225064130090A127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B795F6C4225064140090A127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B795F6C5225064140090A127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B795F6C7225064140090A127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B7D8B2BC5F0014A63AE11E /* Pods-thirdlaw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
+				INFOPLIST_FILE = thirdlaw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.thirdlaw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B795F6C8225064140090A127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E276ABB117EAE28745CAAEA6 /* Pods-thirdlaw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
+				INFOPLIST_FILE = thirdlaw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.thirdlaw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B795F6CA225064140090A127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1ACCC80685673C3CBB2CC39 /* Pods-thirdlawTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
+				INFOPLIST_FILE = thirdlawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.thirdlawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thirdlaw.app/thirdlaw";
+			};
+			name = Debug;
+		};
+		B795F6CB225064140090A127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0545D54EA160DB90F5174ED /* Pods-thirdlawTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
+				INFOPLIST_FILE = thirdlawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.thirdlawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thirdlaw.app/thirdlaw";
+			};
+			name = Release;
+		};
+		B795F6CD225064140090A127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E34FF899B7A6217C22F274C /* Pods-thirdlawUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
+				INFOPLIST_FILE = thirdlawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.thirdlawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thirdlaw;
+			};
+			name = Debug;
+		};
+		B795F6CE225064140090A127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E477A215BC1F16D6EFFA5F3 /* Pods-thirdlawUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3JS4TFUB;
+				INFOPLIST_FILE = thirdlawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.thirdlawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thirdlaw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B795F699225064120090A127 /* Build configuration list for PBXProject "thirdlaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B795F6C4225064140090A127 /* Debug */,
+				B795F6C5225064140090A127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B795F6C6225064140090A127 /* Build configuration list for PBXNativeTarget "thirdlaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B795F6C7225064140090A127 /* Debug */,
+				B795F6C8225064140090A127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B795F6C9225064140090A127 /* Build configuration list for PBXNativeTarget "thirdlawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B795F6CA225064140090A127 /* Debug */,
+				B795F6CB225064140090A127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B795F6CC225064140090A127 /* Build configuration list for PBXNativeTarget "thirdlawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B795F6CD225064140090A127 /* Debug */,
+				B795F6CE225064140090A127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B795F696225064120090A127 /* Project object */;
+}
