@@ -15,6 +15,11 @@ class SurveyResults: UIViewController {
     
     // Data
     var results: [SurveyNiceLevel]!
+    /// Score
+    var score: Int
+    var maxScore: Int {
+        return results.count * 3
+    }
     
     // System
     var alerts: AlertManager!
@@ -26,7 +31,7 @@ class SurveyResults: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-//        getData()
+        getData()
 //        setupManagers()
 //        initUI()
     }

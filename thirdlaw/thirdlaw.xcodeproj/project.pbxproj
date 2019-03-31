@@ -21,6 +21,7 @@
 		B78285162250AC4F00E0DEE3 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */; };
 		B78285182250B5B100E0DEE3 /* SurveyVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */; };
 		B782851A2250BB1800E0DEE3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285192250BB1800E0DEE3 /* Enums.swift */; };
+		B782851C2250BE3E00E0DEE3 /* SurveyResults-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782851B2250BE3E00E0DEE3 /* SurveyResults-logic.swift */; };
 		B795F6A2225064130090A127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A1225064130090A127 /* AppDelegate.swift */; };
 		B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A3225064130090A127 /* LaunchScreenVC.swift */; };
 		B795F6A7225064130090A127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B795F6A5225064130090A127 /* Main.storyboard */; };
@@ -120,6 +121,7 @@
 		B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-system.swift"; sourceTree = "<group>"; };
 		B78285192250BB1800E0DEE3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B782851B2250BE3E00E0DEE3 /* SurveyResults-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyResults-logic.swift"; sourceTree = "<group>"; };
 		B795F69E225064130090A127 /* thirdlaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thirdlaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B795F6A1225064130090A127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B795F6A3225064130090A127 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				B7DBC27E22507931006ADABD /* SurveyResults.swift */,
+				B782851B2250BE3E00E0DEE3 /* SurveyResults-logic.swift */,
 			);
 			path = SurveyResultsVC;
 			sourceTree = "<group>";
@@ -734,6 +737,7 @@
 				B795F6A2225064130090A127 /* AppDelegate.swift in Sources */,
 				B7DBC27B22507899006ADABD /* SurveyVC.swift in Sources */,
 				B7F4F22722506E05001455A1 /* PlaidAPI.swift in Sources */,
+				B782851C2250BE3E00E0DEE3 /* SurveyResults-logic.swift in Sources */,
 				B78285122250994E00E0DEE3 /* LaunchScreenVC-system.swift in Sources */,
 				B78285162250AC4F00E0DEE3 /* UIKitExtensions.swift in Sources */,
 				B7F4F1BD22506660001455A1 /* AppDelegate-state.swift in Sources */,

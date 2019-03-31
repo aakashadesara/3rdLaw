@@ -8,10 +8,10 @@
 
 import Foundation
 import UIKit
-enum SurveyNiceLevel {
-    case low
-    case med
-    case high
+enum SurveyNiceLevel: Int {
+    case low = 1
+    case med = 2
+    case high = 3
 }
 
 class EcoFriendliness: Comparable {
