@@ -61,7 +61,7 @@ extension SurveyVC {
             let butt = UIButton(); view.addSubview(butt)
                 butt.translatesAutoresizingMaskIntoConstraints = false
                 butt.leadingAnchor.constraint(equalTo: questionLabel.leadingAnchor).isActive = true
-                butt.topAnchor.constraint(equalTo: last.bottomAnchor, constant: .padding * 3).isActive = true
+                butt.topAnchor.constraint(equalTo: last.bottomAnchor, constant: .padding * 1.75).isActive = true
                 butt.widthAnchor.constraint(equalToConstant: .buttonThin/1.5).isActive = true
                 butt.heightAnchor.constraint(equalTo: butt.widthAnchor, multiplier: 1).isActive = true
             butt.addBorder(colored: .thirdDarkGreen5, thickness: 4)

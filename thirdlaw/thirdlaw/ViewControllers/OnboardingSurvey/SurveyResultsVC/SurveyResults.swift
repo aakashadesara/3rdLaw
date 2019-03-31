@@ -14,7 +14,7 @@ import ARMDevSuite
 class SurveyResults: UIViewController {
     
     // Data
-    var results: [EcoFriendliness]!
+    var results: [SurveyNiceLevel]!
     
     // System
     var alerts: AlertManager!

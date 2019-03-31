@@ -11,17 +11,11 @@
 import UIKit
 import ARMDevSuite
 
-enum EcoFriendliness {
-    case low
-    case med
-    case high
-}
-
 class SurveyVC: UIViewController {
     
     // Data
-    var responses = [EcoFriendliness]()
-    var pendingResponse: EcoFriendliness? {
+    var responses = [SurveyNiceLevel]()
+    var pendingResponse: SurveyNiceLevel? {
         didSet {
             advanceButton.isEnabled = (self.pendingResponse != nil)
         }
