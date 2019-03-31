@@ -13,7 +13,7 @@ import ARMDevSuite
 
 extension LaunchScreenVC {
     @objc func beginSurvey() {
-        self.headerLabel.text = "Ha you farted"
+        toSurvey()
     }
 
 

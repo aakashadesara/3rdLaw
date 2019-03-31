@@ -13,6 +13,7 @@ import ARMDevSuite
 
 extension LaunchScreenVC {
     func initUI() {
+        initNav()
         initLogo()
         initText()
         initButton()
@@ -20,6 +21,9 @@ extension LaunchScreenVC {
     }
 
     // UI Initialization Helpers
+    func initNav() {
+        self.navigationController?.navigationBar.isHidden = true
+    }
     func initLogo() {
         self.logoView = UIImageView(); view.addSubview(logoView)
             logoView.translatesAutoresizingMaskIntoConstraints = false

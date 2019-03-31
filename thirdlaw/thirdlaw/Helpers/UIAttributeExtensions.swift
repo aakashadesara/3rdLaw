@@ -12,7 +12,9 @@ import ARMDevSuite
 
 extension UIImage {
     static let logoDark     = UIImage(named: "logo-dark")!
-    static let logoLight     = UIImage(named: "logo-light")!
+    static let logoLight    = UIImage(named: "logo-light")!
+    
+    static let buttonCheck  = UIImage(named: "check")!
 }
 
 extension UIFont {
@@ -22,9 +24,10 @@ extension UIFont {
     
     static let proximaLargeLight  = UIFont(name: "ProximaNovaA-Light", size: 24)!
     static let proximaLarge       = UIFont(name: "ProximaNovaA-Regular", size: 24)!
-    static let proximaCaption       = UIFont(name: "ProximaNovaA-Regular", size: 16)!
+    static let proximaMedium       = UIFont(name: "ProximaNovaA-Regular", size: 16)!
     
-    static let proximaFinePrint     = UIFont(name: "ProximaNovaA-Regular", size: 12)!
+    static let proximaSmall     = UIFont(name: "ProximaNovaA-Regular", size: 12)!
+
     
     
 }
