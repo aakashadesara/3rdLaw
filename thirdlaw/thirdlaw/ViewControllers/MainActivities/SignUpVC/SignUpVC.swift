@@ -25,6 +25,7 @@ class SignUpVC: UIViewController {
     var lastName: ARMTextField!
     var userName: ARMTextField!
     var password: ARMTextField!
+    var nextButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
