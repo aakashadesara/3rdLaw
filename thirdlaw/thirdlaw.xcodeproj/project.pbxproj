@@ -10,21 +10,21 @@
 		14F3E60FD1191A01C6AB9178 /* Pods_thirdlawTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A25684F409CDD6CCD95039 /* Pods_thirdlawTests.framework */; };
 		5DB571436E7D4C29CF4AC1D5 /* Pods_thirdlaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608314505308CF6D9B13125B /* Pods_thirdlaw.framework */; };
 		943835DC22509C610013494A /* testing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943835DB22509C610013494A /* testing.storyboard */; };
-		943835E02250BAD60013494A /* transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835DF2250BAD60013494A /* transactions.swift */; };
+		943835E02250BAD60013494A /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835DF2250BAD60013494A /* Transactions.swift */; };
 		943835E72250BD1D0013494A /* SignUpVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835E42250BD1D0013494A /* SignUpVC-logic.swift */; };
 		943835E82250BD1D0013494A /* SignUpVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835E52250BD1D0013494A /* SignUpVC-initUI.swift */; };
 		943835E92250BD1D0013494A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835E62250BD1D0013494A /* SignUpVC.swift */; };
 		943835EC2250BD720013494A /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835EB2250BD720013494A /* TransactionsVC.swift */; };
 		943835EE2250BD9E0013494A /* TransactionsVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */; };
+		B776FE462250C18A000DF900 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE452250C18A000DF900 /* Enums.swift */; };
+		B776FE482250C1B0000DF900 /* SurveyResults-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */; };
+		B776FE4A2250C1C4000DF900 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE492250C1C4000DF900 /* UIKitExtensions.swift */; };
+		B776FE4C2250C1DA000DF900 /* SurveyVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE4B2250C1DA000DF900 /* SurveyVC-system.swift */; };
 		B782850C22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782850B22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift */; };
 		B782850E2250933900E0DEE3 /* LaunchScreenVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782850D2250933900E0DEE3 /* LaunchScreenVC-logic.swift */; };
 		B78285102250985900E0DEE3 /* SurveyVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */; };
 		B78285122250994E00E0DEE3 /* LaunchScreenVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285112250994E00E0DEE3 /* LaunchScreenVC-system.swift */; };
 		B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */; };
-		B78285162250AC4F00E0DEE3 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */; };
-		B78285182250B5B100E0DEE3 /* SurveyVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */; };
-		B782851A2250BB1800E0DEE3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285192250BB1800E0DEE3 /* Enums.swift */; };
-		B782851C2250BE3E00E0DEE3 /* SurveyResults-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782851B2250BE3E00E0DEE3 /* SurveyResults-logic.swift */; };
 		B795F6A2225064130090A127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A1225064130090A127 /* AppDelegate.swift */; };
 		B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A3225064130090A127 /* LaunchScreenVC.swift */; };
 		B795F6A7225064130090A127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B795F6A5225064130090A127 /* Main.storyboard */; };
@@ -110,7 +110,7 @@
 		43B7D8B2BC5F0014A63AE11E /* Pods-thirdlaw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlaw.debug.xcconfig"; path = "Target Support Files/Pods-thirdlaw/Pods-thirdlaw.debug.xcconfig"; sourceTree = "<group>"; };
 		608314505308CF6D9B13125B /* Pods_thirdlaw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thirdlaw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		943835DB22509C610013494A /* testing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = testing.storyboard; sourceTree = "<group>"; };
-		943835DF2250BAD60013494A /* transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactions.swift; sourceTree = "<group>"; };
+		943835DF2250BAD60013494A /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
 		943835E42250BD1D0013494A /* SignUpVC-logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignUpVC-logic.swift"; sourceTree = "<group>"; };
 		943835E52250BD1D0013494A /* SignUpVC-initUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignUpVC-initUI.swift"; sourceTree = "<group>"; };
 		943835E62250BD1D0013494A /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
@@ -119,15 +119,15 @@
 		9E34FF899B7A6217C22F274C /* Pods-thirdlawUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawUITests.debug.xcconfig"; path = "Target Support Files/Pods-thirdlawUITests/Pods-thirdlawUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E477A215BC1F16D6EFFA5F3 /* Pods-thirdlawUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawUITests.release.xcconfig"; path = "Target Support Files/Pods-thirdlawUITests/Pods-thirdlawUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1ACCC80685673C3CBB2CC39 /* Pods-thirdlawTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawTests.debug.xcconfig"; path = "Target Support Files/Pods-thirdlawTests/Pods-thirdlawTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B776FE452250C18A000DF900 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SurveyResults-logic.swift"; sourceTree = "<group>"; };
+		B776FE492250C1C4000DF900 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		B776FE4B2250C1DA000DF900 /* SurveyVC-system.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SurveyVC-system.swift"; sourceTree = "<group>"; };
 		B782850B22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LaunchScreenVC-initUI.swift"; sourceTree = "<group>"; };
 		B782850D2250933900E0DEE3 /* LaunchScreenVC-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LaunchScreenVC-logic.swift"; sourceTree = "<group>"; };
 		B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-initUI.swift"; sourceTree = "<group>"; };
 		B78285112250994E00E0DEE3 /* LaunchScreenVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LaunchScreenVC-system.swift"; sourceTree = "<group>"; };
 		B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-logic.swift"; sourceTree = "<group>"; };
-		B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
-		B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-system.swift"; sourceTree = "<group>"; };
-		B78285192250BB1800E0DEE3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		B782851B2250BE3E00E0DEE3 /* SurveyResults-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyResults-logic.swift"; sourceTree = "<group>"; };
 		B795F69E225064130090A127 /* thirdlaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thirdlaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B795F6A1225064130090A127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B795F6A3225064130090A127 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
@@ -296,8 +296,8 @@
 			children = (
 				B7DBC27A22507899006ADABD /* SurveyVC.swift */,
 				B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */,
+				B776FE4B2250C1DA000DF900 /* SurveyVC-system.swift */,
 				B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */,
-				B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */,
 			);
 			path = SurveyVC;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				B7DBC27E22507931006ADABD /* SurveyResults.swift */,
-				B782851B2250BE3E00E0DEE3 /* SurveyResults-logic.swift */,
+				B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */,
 			);
 			path = SurveyResultsVC;
 			sourceTree = "<group>";
@@ -375,8 +375,8 @@
 			children = (
 				B7F4F1C722506A73001455A1 /* fonts */,
 				B7F4F1BF225066A1001455A1 /* UIAttributeExtensions.swift */,
-				B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */,
 				B7F4F1C3225066F2001455A1 /* ConstantsAndUtils.swift */,
+				B776FE492250C1C4000DF900 /* UIKitExtensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -445,8 +445,8 @@
 			isa = PBXGroup;
 			children = (
 				B7F4F22122506DD2001455A1 /* User.swift */,
-				943835DF2250BAD60013494A /* transactions.swift */,
-				B78285192250BB1800E0DEE3 /* Enums.swift */,
+				B776FE452250C18A000DF900 /* Enums.swift */,
+				943835DF2250BAD60013494A /* Transactions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -747,29 +747,24 @@
 				B7F4F1C0225066A1001455A1 /* UIAttributeExtensions.swift in Sources */,
 				943835EE2250BD9E0013494A /* TransactionsVC-initUI.swift in Sources */,
 				943835E82250BD1D0013494A /* SignUpVC-initUI.swift in Sources */,
+				B776FE4A2250C1C4000DF900 /* UIKitExtensions.swift in Sources */,
 				943835E92250BD1D0013494A /* SignUpVC.swift in Sources */,
 				B7DBC282225079A7006ADABD /* DonateVC.swift in Sources */,
 				943835E72250BD1D0013494A /* SignUpVC-logic.swift in Sources */,
 				B782850E2250933900E0DEE3 /* LaunchScreenVC-logic.swift in Sources */,
-				B782851A2250BB1800E0DEE3 /* Enums.swift in Sources */,
 				B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */,
 				B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */,
 				B795F6A2225064130090A127 /* AppDelegate.swift in Sources */,
 				B7DBC27B22507899006ADABD /* SurveyVC.swift in Sources */,
 				B7F4F22722506E05001455A1 /* PlaidAPI.swift in Sources */,
-				B782851C2250BE3E00E0DEE3 /* SurveyResults-logic.swift in Sources */,
+				B776FE482250C1B0000DF900 /* SurveyResults-logic.swift in Sources */,
 				B78285122250994E00E0DEE3 /* LaunchScreenVC-system.swift in Sources */,
-				B78285162250AC4F00E0DEE3 /* UIKitExtensions.swift in Sources */,
+				B776FE4C2250C1DA000DF900 /* SurveyVC-system.swift in Sources */,
 				B7F4F1BD22506660001455A1 /* AppDelegate-state.swift in Sources */,
 				B7DBC28622507A06006ADABD /* ShopVC.swift in Sources */,
-<<<<<<< HEAD
 				943835EC2250BD720013494A /* TransactionsVC.swift in Sources */,
-				943835E02250BAD60013494A /* transactions.swift in Sources */,
-=======
-				B78285182250B5B100E0DEE3 /* SurveyVC-system.swift in Sources */,
-				943835D822509AF10013494A /* SignUpVC.swift in Sources */,
-				943835DA22509B030013494A /* SignUpVC-initUI.swift in Sources */,
->>>>>>> c56931b72e0a84c7030d60edbaaaa269d2bda387
+				943835E02250BAD60013494A /* Transactions.swift in Sources */,
+				B776FE462250C18A000DF900 /* Enums.swift in Sources */,
 				B7F4F22222506DD2001455A1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

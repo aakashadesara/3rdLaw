@@ -16,7 +16,7 @@ class SurveyResults: UIViewController {
     // Data
     var results: [SurveyNiceLevel]!
     /// Score
-    var score: Int
+    var score: Int!
     var maxScore: Int {
         return results.count * 3
     }
