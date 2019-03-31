@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--TransactionsVC-->
+        <!--Take ActionVC-->
         <scene sceneID="vhW-Q3-9RS">
             <objects>
-                <viewController id="FTe-NU-JZu" customClass="TransactionsVC" customModule="thirdlaw" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FTe-NU-JZu" customClass="TakeActionVC" customModule="thirdlaw" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Vg-Un-m4V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
