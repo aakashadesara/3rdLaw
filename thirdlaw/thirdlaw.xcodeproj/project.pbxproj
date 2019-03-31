@@ -18,6 +18,7 @@
 		B78285122250994E00E0DEE3 /* LaunchScreenVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285112250994E00E0DEE3 /* LaunchScreenVC-system.swift */; };
 		B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */; };
 		B78285162250AC4F00E0DEE3 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */; };
+		B78285182250B5B100E0DEE3 /* SurveyVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */; };
 		B795F6A2225064130090A127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A1225064130090A127 /* AppDelegate.swift */; };
 		B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795F6A3225064130090A127 /* LaunchScreenVC.swift */; };
 		B795F6A7225064130090A127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B795F6A5225064130090A127 /* Main.storyboard */; };
@@ -114,6 +115,7 @@
 		B78285112250994E00E0DEE3 /* LaunchScreenVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LaunchScreenVC-system.swift"; sourceTree = "<group>"; };
 		B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-logic.swift"; sourceTree = "<group>"; };
 		B78285152250AC4F00E0DEE3 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyVC-system.swift"; sourceTree = "<group>"; };
 		B795F69E225064130090A127 /* thirdlaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thirdlaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B795F6A1225064130090A127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B795F6A3225064130090A127 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 				B7DBC27A22507899006ADABD /* SurveyVC.swift */,
 				B782850F2250985900E0DEE3 /* SurveyVC-initUI.swift */,
 				B78285132250A72F00E0DEE3 /* SurveyVC-logic.swift */,
+				B78285172250B5B100E0DEE3 /* SurveyVC-system.swift */,
 			);
 			path = SurveyVC;
 			sourceTree = "<group>";
@@ -727,6 +730,7 @@
 				B78285162250AC4F00E0DEE3 /* UIKitExtensions.swift in Sources */,
 				B7F4F1BD22506660001455A1 /* AppDelegate-state.swift in Sources */,
 				B7DBC28622507A06006ADABD /* ShopVC.swift in Sources */,
+				B78285182250B5B100E0DEE3 /* SurveyVC-system.swift in Sources */,
 				943835D822509AF10013494A /* SignUpVC.swift in Sources */,
 				943835DA22509B030013494A /* SignUpVC-initUI.swift in Sources */,
 				B7F4F22222506DD2001455A1 /* User.swift in Sources */,

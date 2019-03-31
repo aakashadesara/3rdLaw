@@ -13,6 +13,7 @@ import ARMDevSuite
 
 extension SurveyVC {
     func initUI() {
+        self.view.backgroundColor = .white
         createHeader()
         addButtons()
         initProgressBar()
@@ -68,7 +69,7 @@ extension SurveyVC {
             butt.tintColor = .thirdBrown
             butt.tag = i
             butt.addTarget(self, action: #selector(selectOption(_:)), for: .touchUpInside)
-            butt.imageEdgeInsets = UIEdgeInsets(padding: 2)
+            butt.imageEdgeInsets = UIEdgeInsets(padding: 3)
             
             buttons.append(butt)
             
@@ -91,19 +92,33 @@ extension SurveyVC {
     func initAdvanceButton() {
         advanceButton = UIButton(); view.addSubview(advanceButton)
             advanceButton.translatesAutoresizingMaskIntoConstraints = false
-//            advanceButton.
+            advanceButton.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor, constant: -.padding).isActive = true
+            advanceButton.bottomAnchor.constraint(equalTo: wholeBar.topAnchor, constant: -.padding).isActive = true
+            advanceButton.heightAnchor.constraint(equalToConstant: .buttonThin).isActive = true
+            advanceButton.widthAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.widthAnchor, multiplier: 0.3).isActive = true
+        advanceButton.setBackgroundColor(color: .thirdDarkGreen5, forState: .normal)
+        advanceButton.setBackgroundColor(color: .thirdLightGray, forState: .disabled)
+        
+        advanceButton.setTitle(self.lastPage ? "Continue >" : "Next >", for: .normal)
+        advanceButton.setTitleColor(.white, for: .normal)
+        
+        advanceButton.titleLabel?.font = .proximaLarge
+        advanceButton.isEnabled = false
+        advanceButton.addTarget(self, action: #selector(toNextQuestion), for: .touchUpInside)
+        
+        
         
     }
     func initProgressBar() {
         let progressBarSize: CGFloat = 15
         
-        let wholeBar = UIView(); view.addSubview(wholeBar)
+        wholeBar = UIView(); view.addSubview(wholeBar)
             wholeBar.translatesAutoresizingMaskIntoConstraints = false
             wholeBar.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
             wholeBar.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor).isActive = true
             wholeBar.widthAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.widthAnchor).isActive = true
             wholeBar.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -progressBarSize).isActive = true
-        wholeBar.backgroundColor = .gray
+        wholeBar.backgroundColor = .thirdLightGray
         
         
         let completionBar = UIView(); view.addSubview(completionBar)
