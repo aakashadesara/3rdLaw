@@ -20,8 +20,8 @@ extension UIFont {
     static let abelLarge            = UIFont(name: "Abel-Regular", size: 35)!
     static let abelMedium           = UIFont(name: "Abel-Regular", size: 30)!
     
-    static let proximaContentLight  = UIFont(name: "ProximaNovaA-Light", size: 24)
-    static let proximaContent       = UIFont(name: "ProximaNovaA-Regular", size: 24)
+    static let proximaLargeLight  = UIFont(name: "ProximaNovaA-Light", size: 24)
+    static let proximaLarge       = UIFont(name: "ProximaNovaA-Regular", size: 24)
     static let proximaCaption       = UIFont(name: "ProximaNovaA-Regular", size: 16)
     
     static let proximaFinePrint     = UIFont(name: "ProximaNovaA-Regular", size: 12)
@@ -49,4 +49,7 @@ extension UIColor {
 extension CGFloat {
     static let padding: CGFloat = 20
     static let marginalPadding: CGFloat = 8
+    
+    static let buttonThin: CGFloat = 50
+    static let buttonThick: CGFloat = 80
 }
