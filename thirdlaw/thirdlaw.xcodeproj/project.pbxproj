@@ -16,6 +16,10 @@
 		943835E92250BD1D0013494A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835E62250BD1D0013494A /* SignUpVC.swift */; };
 		943835EC2250BD720013494A /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835EB2250BD720013494A /* TransactionsVC.swift */; };
 		943835EE2250BD9E0013494A /* TransactionsVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */; };
+		943F947B2250C95E007B21BA /* TransactionsVC-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F947A2250C95E007B21BA /* TransactionsVC-logic.swift */; };
+		943F947D2250DC3F007B21BA /* TransactionsVC-system.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F947C2250DC3F007B21BA /* TransactionsVC-system.swift */; };
+		943F947F2250E019007B21BA /* TakeActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F947E2250E019007B21BA /* TakeActionVC.swift */; };
+		943F94812250E027007B21BA /* TakeActionVC-initUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F94802250E027007B21BA /* TakeActionVC-initUI.swift */; };
 		B776FE462250C18A000DF900 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE452250C18A000DF900 /* Enums.swift */; };
 		B776FE482250C1B0000DF900 /* SurveyResults-logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE472250C1B0000DF900 /* SurveyResults-logic.swift */; };
 		B776FE4A2250C1C4000DF900 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B776FE492250C1C4000DF900 /* UIKitExtensions.swift */; };
@@ -121,6 +125,10 @@
 		943835E62250BD1D0013494A /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		943835EB2250BD720013494A /* TransactionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
 		943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-initUI.swift"; sourceTree = "<group>"; };
+		943F947A2250C95E007B21BA /* TransactionsVC-logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-logic.swift"; sourceTree = "<group>"; };
+		943F947C2250DC3F007B21BA /* TransactionsVC-system.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TransactionsVC-system.swift"; sourceTree = "<group>"; };
+		943F947E2250E019007B21BA /* TakeActionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeActionVC.swift; sourceTree = "<group>"; };
+		943F94802250E027007B21BA /* TakeActionVC-initUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TakeActionVC-initUI.swift"; sourceTree = "<group>"; };
 		9E34FF899B7A6217C22F274C /* Pods-thirdlawUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawUITests.debug.xcconfig"; path = "Target Support Files/Pods-thirdlawUITests/Pods-thirdlawUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E477A215BC1F16D6EFFA5F3 /* Pods-thirdlawUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawUITests.release.xcconfig"; path = "Target Support Files/Pods-thirdlawUITests/Pods-thirdlawUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1ACCC80685673C3CBB2CC39 /* Pods-thirdlawTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdlawTests.debug.xcconfig"; path = "Target Support Files/Pods-thirdlawTests/Pods-thirdlawTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -255,6 +263,26 @@
 			path = SignUpVC;
 			sourceTree = "<group>";
 		};
+		943F94792250C2D5007B21BA /* TransactionsVC */ = {
+			isa = PBXGroup;
+			children = (
+				943835EB2250BD720013494A /* TransactionsVC.swift */,
+				943F947C2250DC3F007B21BA /* TransactionsVC-system.swift */,
+				943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */,
+				943F947A2250C95E007B21BA /* TransactionsVC-logic.swift */,
+			);
+			path = TransactionsVC;
+			sourceTree = "<group>";
+		};
+		943F94822250E02C007B21BA /* TakeActionVC */ = {
+			isa = PBXGroup;
+			children = (
+				943F947E2250E019007B21BA /* TakeActionVC.swift */,
+				943F94802250E027007B21BA /* TakeActionVC-initUI.swift */,
+			);
+			path = TakeActionVC;
+			sourceTree = "<group>";
+		};
 		B795F695225064120090A127 = {
 			isa = PBXGroup;
 			children = (
@@ -341,8 +369,7 @@
 				B7DBC28722507A0B006ADABD /* ShopVC */,
 				943835EB2250BD720013494A /* TransactionsVC.swift */,
 				943835ED2250BD9E0013494A /* TransactionsVC-initUI.swift */,
-				B776FE552250EE78000DF900 /* PlaidVC.swift */,
-			);
+				B776FE552250EE78000DF900 /* PlaidVC.swift */,			);
 			path = MainActivities;
 			sourceTree = "<group>";
 		};
@@ -757,6 +784,7 @@
 			files = (
 				B78285102250985900E0DEE3 /* SurveyVC-initUI.swift in Sources */,
 				B7F4F1C62250671C001455A1 /* AppDelegate-design.swift in Sources */,
+				943F947B2250C95E007B21BA /* TransactionsVC-logic.swift in Sources */,
 				B782850C22508CF700E0DEE3 /* LaunchScreenVC-initUI.swift in Sources */,
 				B7F4F1C4225066F2001455A1 /* ConstantsAndUtils.swift in Sources */,
 				B776FE562250EE78000DF900 /* PlaidVC.swift in Sources */,
@@ -774,6 +802,9 @@
 				B782850E2250933900E0DEE3 /* LaunchScreenVC-logic.swift in Sources */,
 				B795F6A4225064130090A127 /* LaunchScreenVC.swift in Sources */,
 				B78285142250A72F00E0DEE3 /* SurveyVC-logic.swift in Sources */,
+				943F947D2250DC3F007B21BA /* TransactionsVC-system.swift in Sources */,
+				943F94812250E027007B21BA /* TakeActionVC-initUI.swift in Sources */,
+				943F947F2250E019007B21BA /* TakeActionVC.swift in Sources */,
 				B795F6A2225064130090A127 /* AppDelegate.swift in Sources */,
 				B7DBC27B22507899006ADABD /* SurveyVC.swift in Sources */,
 				B7F4F22722506E05001455A1 /* PlaidAPI.swift in Sources */,
@@ -960,7 +991,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T3JS4TFUB;
+				DEVELOPMENT_TEAM = NPD4762C42;
 				INFOPLIST_FILE = thirdlaw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -979,7 +1010,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T3JS4TFUB;
+				DEVELOPMENT_TEAM = NPD4762C42;
 				INFOPLIST_FILE = thirdlaw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

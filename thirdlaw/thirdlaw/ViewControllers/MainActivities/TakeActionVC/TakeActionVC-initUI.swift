@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  takeActionVC-initUI.swift
 //  thirdlaw
 //
 //  Created by Bijal Patel on 3/31/19.
@@ -11,10 +11,11 @@ import Foundation
 import UIKit
 import ARMDevSuite
 
-extension TransactionsVC {
+extension TakeActionVC {
     func initUI() {
         initHeader()
         initTopBar()
+        initParagraph()
     }
 
     // UI Initialization Helpers
@@ -24,7 +25,7 @@ extension TransactionsVC {
         header.centerXAnchor.constraint(equalToSystemSpacingAfter: self.view.safeAreaLayoutGuide.centerXAnchor, multiplier: 1).isActive = true
         header.topAnchor.constraint(equalToSystemSpacingBelow: self.view.safeAreaLayoutGuide.topAnchor, multiplier: 1).isActive = true
         header.font = UIFont.abelLarge
-        header.text = "your transactions"
+        header.text = "take action"
         header.textColor = .white
         
     }
@@ -39,6 +40,23 @@ extension TransactionsVC {
         topBar.backgroundColor = .thirdDarkGreen5
         
     }
-    
+    func initParagraph(){
+        self.paragraph = UILabel(); view.addSubview(paragraph)
+        paragraph.translatesAutoresizingMaskIntoConstraints = false
+        paragraph.leftAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leftAnchor, constant: .padding).isActive = true
+        paragraph.rightAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.rightAnchor, constant: -.padding).isActive = true
+        paragraph.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+        paragraph.topAnchor.constraint(equalTo: topBar.bottomAnchor, constant:  .padding).isActive = true
+        paragraph.font = .proximaLarge
+        paragraph.text = """
+        Every action has an equal and opposite reaction. \n
+        Considering such, in order to get closer to carbon neutrality yourself, you can either reduce your carbon emissions, or offset usage by helping the planet in other ways. \n
+        Click the options below to see how you can get to a more carbon neutral lifestyle!
+        """
+        paragraph.numberOfLines = 0
+        paragraph.textColor = .thirdDarkGreen5
+        
+        
+    }
 
 }

@@ -1,5 +1,5 @@
 //
-//  TransactionsVC.swift
+//  takeActionVC.swift
 //  thirdlaw
 //
 //  Created by Bijal Patel on 3/31/19.
@@ -11,11 +11,22 @@
 import UIKit
 import ARMDevSuite
 
-class TransactionsVC: UIViewController {
+class TakeActionVC: UIViewController {
+    
+    // Data
+    
+    // System
+    var alerts: AlertManager!
+    
+    // UI Components
     var header: UILabel!
     var topBar: UIView!
+    var paragraph: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
         initUI()
     }
     
