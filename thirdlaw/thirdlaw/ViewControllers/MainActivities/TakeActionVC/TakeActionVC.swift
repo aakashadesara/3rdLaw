@@ -23,6 +23,9 @@ class TakeActionVC: UIViewController {
     var topBar: UIView!
     var paragraph: UILabel!
     
+    var lifestyleButton: UIButton!
+    var offsetButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

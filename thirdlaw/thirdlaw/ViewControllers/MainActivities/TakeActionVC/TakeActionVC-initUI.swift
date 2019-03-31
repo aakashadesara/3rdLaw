@@ -16,6 +16,7 @@ extension TakeActionVC {
         initHeader()
         initTopBar()
         initParagraph()
+        initButtons()
     }
 
     // UI Initialization Helpers
@@ -45,9 +46,8 @@ extension TakeActionVC {
         paragraph.translatesAutoresizingMaskIntoConstraints = false
         paragraph.leftAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leftAnchor, constant: .padding).isActive = true
         paragraph.rightAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.rightAnchor, constant: -.padding).isActive = true
-        paragraph.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         paragraph.topAnchor.constraint(equalTo: topBar.bottomAnchor, constant:  .padding).isActive = true
-        paragraph.font = .proximaLarge
+        paragraph.font = .proximaBigish
         paragraph.text = """
         Every action has an equal and opposite reaction. \n
         Considering such, in order to get closer to carbon neutrality yourself, you can either reduce your carbon emissions, or offset usage by helping the planet in other ways. \n
@@ -55,6 +55,51 @@ extension TakeActionVC {
         """
         paragraph.numberOfLines = 0
         paragraph.textColor = .thirdDarkGreen5
+    }
+    
+    func initButtons() {
+        func add(button: UIButton, text: String, img: UIImage) {
+            button.addBorder(colored: .thirdDarkGreen5, thickness: 3)
+            let label = UILabel(); button.addSubview(label)
+                label.translatesAutoresizingMaskIntoConstraints = false
+                label.centerYAnchor.constraint(equalTo: button.centerYAnchor).isActive = true
+                label.leadingAnchor.constraint(equalTo: button.centerXAnchor, constant: .marginalPadding).isActive = true
+                label.trailingAnchor.constraint(equalTo: button.trailingAnchor, constant: -.marginalPadding).isActive = true
+            label.font = .abelLarge
+            label.textAlignment = .center
+            label.numberOfLines = 2
+            label.textColor = .black
+            label.text = text
+            label.adjustsFontSizeToFitWidth = true
+            
+            let photo = UIImageView(); button.addSubview(photo)
+                photo.translatesAutoresizingMaskIntoConstraints = false
+                photo.centerYAnchor.constraint(equalTo: button.centerYAnchor).isActive = true
+                photo.leadingAnchor.constraint(equalTo: button.leadingAnchor, constant: .marginalPadding).isActive = true
+                photo.trailingAnchor.constraint(equalTo: button.centerXAnchor, constant: -.marginalPadding).isActive = true
+                photo.heightAnchor.constraint(equalTo: button.heightAnchor, multiplier: 0.8).isActive = true
+            photo.contentMode = .scaleAspectFit
+            photo.image = img
+            
+            
+            
+        }
+        
+        self.lifestyleButton = UIButton(); view.addSubview(lifestyleButton)
+            lifestyleButton.translatesAutoresizingMaskIntoConstraints = false
+            lifestyleButton.leadingAnchor.constraint(equalTo: paragraph.leadingAnchor).isActive = true
+            lifestyleButton.topAnchor.constraint(equalTo: paragraph.bottomAnchor, constant: .padding).isActive = true
+            lifestyleButton.trailingAnchor.constraint(equalTo: paragraph.trailingAnchor).isActive = true
+            lifestyleButton.heightAnchor.constraint(equalToConstant: .buttonThick * 1.5).isActive = true
+        add(button: lifestyleButton, text: "Lifestyle\nChanges", img: UIImage(named: "lifestyle")!)
+        
+        self.offsetButton = UIButton(); view.addSubview(offsetButton)
+        offsetButton.translatesAutoresizingMaskIntoConstraints = false
+        offsetButton.leadingAnchor.constraint(equalTo: paragraph.leadingAnchor).isActive = true
+        offsetButton.topAnchor.constraint(equalTo: lifestyleButton.bottomAnchor, constant: .padding).isActive = true
+        offsetButton.trailingAnchor.constraint(equalTo: paragraph.trailingAnchor).isActive = true
+        offsetButton.heightAnchor.constraint(equalToConstant: .buttonThick * 1.5).isActive = true
+        add(button: offsetButton, text: "Environmental\nOffset", img: UIImage(named: "offsets")!)
         
         
     }

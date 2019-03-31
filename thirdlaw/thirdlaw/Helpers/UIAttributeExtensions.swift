@@ -24,6 +24,7 @@ extension UIFont {
     
     static let proximaLargeLight  = UIFont(name: "ProximaNovaA-Light", size: 24)!
     static let proximaLarge       = UIFont(name: "ProximaNovaA-Regular", size: 24)!
+    static let proximaBigish       = UIFont(name: "ProximaNovaA-Regular", size: 20)!
     static let proximaMedium       = UIFont(name: "ProximaNovaA-Regular", size: 16)!
     
     static let proximaSmall     = UIFont(name: "ProximaNovaA-Regular", size: 12)!
